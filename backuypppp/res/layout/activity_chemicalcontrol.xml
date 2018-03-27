@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:text="hello"/>
+    <View
+        android:id="@+id/view"
+        android:layout_width="2dip"
+        android:layout_height="3dip"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/title"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/blue"
+        android:background="@color/yellow"
+        android:text="The Pest infestation is above Economic Threshold Level(ETL)" />
+    <View
+        android:id="@+id/view1"
+        android:layout_width="2dip"
+        android:layout_height="4dip"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/textView3"
+        android:visibility="visible" />
+        />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/blue"
+        android:text="TextView"
+        android:layout_below="@+id/textView3"
+        android:background="@color/yellow"
+       />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="2dip"
+        android:layout_height="2dip"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/textView12"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/chemicalcontroltxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:text="Chemical Control"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:layout_below="@+id/view2"
+        android:background="@color/yellow"/>
+
+    <LinearLayout
+        android:id="@+id/listlinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/chemicalcontroltxt">
+                <ListView
+                    android:id="@+id/mobile_list"
+                    android:background="@drawable/listviewshape"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:divider="#FF4A4D93"
+                    android:dividerHeight="1dp"
+                    android:paddingBottom="25dp">
+                </ListView>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <!-- ADDED SPACER VIEW >-->
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+         <!--/ADDED SPACER VIEW -->
+        <Button
+            android:id="@+id/back"
+            android:background="@drawable/green_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Back"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_alignParentRight="true"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

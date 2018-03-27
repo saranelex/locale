@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="textview"
+        android:textColor="@color/blue"/>
+    <View
+        android:id="@+id/view"
+        android:layout_width="2dip"
+        android:layout_height="5dip"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/title"
+        android:visibility="visible" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/view"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0"
+                android:layout_gravity="center"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10px"
+                android:text="Check for Economic Threshold Level"
+                android:background="@color/yellow"
+                android:textColor="@color/blue"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+
+            <View
+                android:visibility="visible"
+                android:layout_height="10dip"
+                android:layout_width="2dip"
+                android:background="#FFFFFF"
+                android:layout_centerHorizontal="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/view">
+
+
+                <Button
+                    android:id="@+id/BELOW_50DAYS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/green_button"
+                    android:padding="10dp"
+                    android:text="One egg or larvae per plant"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/ABOVE_50_DAYS"
+                    android:background="@drawable/green_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Morethan one egg larvae per plant"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:textAllCaps="false"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/BELOW_50DAYS"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/BELOW_2_Nymphs"
+                    android:background="@drawable/green_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lessthan 5-10% Infested fruiting bodies"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:textAllCaps="false"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/ABOVE_50_DAYS"
+
+                    />
+
+                <Button
+                    android:id="@+id/ABOVE_2_Nymphs"
+                    android:background="@drawable/green_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Morethan 5-10% Infested fruiting bodies"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:textAllCaps="false"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/BELOW_2_Nymphs"
+
+                    />
+
+<TextView
+    android:id="@+id/buttondescription"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:textSize="12sp"/>
+            </LinearLayout>
+
+
+
+            <View
+                android:visibility="visible"
+                android:layout_height="50dip"
+                android:layout_width="2dip"
+                android:background="#FFFFFF"
+                android:layout_centerHorizontal="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <!-- ADDED SPACER VIEW >-->
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            />
+        <!--/ADDED SPACER VIEW -->
+        <Button
+            android:id="@+id/back"
+            android:background="@drawable/green_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Back"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+</RelativeLayout>

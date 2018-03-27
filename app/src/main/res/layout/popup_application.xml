@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#C0C0C0"
+    android:weightSum="1">
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:background="#C0C0C0"-->
+            <!--android:orientation="vertical">-->
+
+            <Button
+                android:id="@+id/button_close"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/close_button" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6"
+        android:paddingBottom="20dp"
+        android:fillViewport="true">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:width="160dp"
+                        android:text="@string/Insecticide"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/row2text21"
+                        android:width="160dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:width="160dp"
+                        android:text="@string/active_ingredient"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/row2text22"
+                        android:width="160dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:width="160dp"
+                        android:text="@string/Formulation"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/row2text23"
+                        android:width="160dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:width="160dp"
+                        android:text="@string/Dilution"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/row2text24"
+                        android:width="160dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:width="160dp"
+                        android:text="@string/Waiting_peroid"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/row2text25"
+                        android:width="160dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txt6"
+                        android:width="160dp"
+                        android:text="@string/Brand_Name"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/row2text26"
+                        android:width="160dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"></TextView>
+                </TableRow>
+            </TableLayout>
+    </ScrollView>
+            <!--<Button-->
+                <!--android:id="@+id/dismiss"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="ok" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/cancel"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="cancel" />-->
+        <!--</LinearLayout>-->
+
+</LinearLayout>

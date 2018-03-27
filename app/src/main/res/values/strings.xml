@@ -1,0 +1,1825 @@
+<resources>
+    <string name="app_name">GROW GOOD COTTON</string>
+    <string name="action_settings">Settings</string>
+    <string name="St_Pest">Management option</string>
+    <string name="St_Pestun">To identify the pest and management</string>
+    <string name="title_activity_android_localize">AndroidLocalize</string>
+    <string name="greet">Welldone Sachin!!</string>
+    <string name="langselection">Select the language in which you want to greet Sachin!!!!</string>
+    <string name="chooselang">Choose the language</string>
+    <string name="flower_damage">Flower /Square Damage</string>
+    <string name="leaf_damage">Leaf Damage</string>
+    <string name="stem_damage">Stem/branches Damage</string>
+    <string name="boll_damage">Boll Damage</string>
+    <string name="image_related">Help: Select an image to view more related images</string>
+    <string name="image_related2">Help:Select an image to identify the pest</string>
+
+
+    <string-array name="languages">
+        <item>Select language</item>
+        <!--<item>தமிழ்</item>-->
+        <!--<item>हिंदी</item>-->
+        <item>English</item>
+    </string-array>
+
+    <string-array name="pestknown">
+        <item>@drawable/aphid</item>
+        <item>@drawable/american_bollworm</item>
+        <item>@drawable/jassid</item>
+        <item>@drawable/pink_bollworm</item>
+        <item>@drawable/spotted_spiny_bollworm</item>
+        <item>@drawable/thrips</item>
+        <item>@drawable/leafworm_tobacco_caterpillar</item>
+        <item>@drawable/whitefly</item>
+    </string-array>
+
+    <string-array name="flower_ids">
+        <item>@drawable/f3bw1</item>
+        <item>@drawable/f4bw2</item>
+        <item>@drawable/f5bw3</item>
+        <item>@drawable/f6bw4</item>
+        <item>@drawable/f7bw5</item>
+        <item>@drawable/f8bw6</item>
+        <item>@drawable/f1ap3</item>
+        <item>@drawable/f2ap4</item>
+        <item>@drawable/f9pb1</item>
+        <item>@drawable/f10pb3</item>
+        <item>@drawable/f11pb7</item>
+        <item>@drawable/f12ea2</item>
+        <item>@drawable/f13ea3</item>
+        <item>@drawable/f14sp8</item>
+    </string-array>
+
+    <string-array name="leaf_ids">
+        <item>@drawable/l30bw11</item>
+        <item>@drawable/l31bw12</item>
+        <item>@drawable/l1ap1</item>
+        <item>@drawable/l2ap5</item>
+        <item>@drawable/l3ap6</item>
+        <item>@drawable/l17ap8</item>
+        <item>@drawable/l9ja1</item>
+        <item>@drawable/l10ja2</item>
+        <item>@drawable/l11ja3</item>
+        <item>@drawable/l12ja4</item>
+        <item>@drawable/l13ja5</item>
+        <item>@drawable/l16ja6</item>
+        <item>@drawable/l25ea5</item>
+        <item>@drawable/l26th1</item>
+        <item>@drawable/l27th2</item>
+        <item>@drawable/l28th3</item>
+        <item>@drawable/l29th4</item>
+        <item>@drawable/l32th5</item>
+        <item>@drawable/l33th6</item>
+        <item>@drawable/l18sp1</item>
+        <item>@drawable/l19sp2</item>
+        <item>@drawable/l20sp3</item>
+        <item>@drawable/l21sp4</item>
+        <item>@drawable/l22sp5</item>
+        <item>@drawable/l23sp6</item>
+        <item>@drawable/l24sp7</item>
+        <item>@drawable/l4wf1</item>
+        <item>@drawable/l5wf2</item>
+        <item>@drawable/l6wf3</item>
+        <item>@drawable/l7wf4</item>
+        <item>@drawable/l8wf5</item>
+        <item>@drawable/l14wf6</item>
+        <item>@drawable/l15wf7</item>
+    </string-array>
+
+    <string-array name="stem_ids">
+        <item>@drawable/s1ap2</item>
+        <item>@drawable/s4ap9</item>
+        <item>@drawable/s6ea1</item>
+    </string-array>
+
+    <string-array name="boll_ids">
+        <item>@drawable/b5bw7</item>
+        <item>@drawable/b6bw8</item>
+        <item>@drawable/b7bw9</item>
+        <item>@drawable/b8bw10</item>
+        <item>@drawable/b14ap7</item>
+        <item>@drawable/b9pb2</item>
+        <item>@drawable/b10pb4</item>
+        <item>@drawable/b11pb5</item>
+        <item>@drawable/b12pb6</item>
+        <item>@drawable/b13pb8</item>
+        <item>@drawable/b19pb9</item>
+        <item>@drawable/b15ea4</item>
+        <item>@drawable/b16ea6</item>
+        <item>@drawable/b17ea7</item>
+    </string-array>
+
+
+    <!--eti screen  -->
+    <string name="american_bolworm_beloweti">
+    Less than 4 plants out of sample of 20 plants per acre having one or more  ‘flared up squares’ during 60-120 days after sowing in Non-Bt
+</string>
+
+    <string name="american_bolworm_aboveeti">
+More than 4 plants out of sample of 20 plants per acre having one or more  ‘flared up squares’ during 60-120 days after sowing in Non-Bt
+</string>
+
+    <string name="jasside_beloweti">
+Less than 5 plants out of sample of 20 plants per acre showing damage Grade II/ Grade III / Grade IV
+</string>
+    <string name="jasside_aboveeti">
+More than 5 plants out of sample of 20 plants per acre showing damage Grade II/ Grade III / Grade IV
+</string>
+
+    <string name="whitefly_beloweti">
+Less than 10 whiteflies per plant on 10 plants out of sample of 20 plants per acre
+</string>
+
+    <string name="whitefly_aboveeti">
+more than 10 whiteflies per plant on 10 plants out of sample of 20 plants per acre
+</string>
+
+    <string name="aphids_beloweti">
+One plant affected showing cuppling or crumpling of few leaves on upper portion of the plant out of sample of 20 plants per acre
+</string>
+
+    <string name="aphids_aboveeti">
+More than one plant affected showing cuppling or crumpling of few leaves on upper portion of the plant out of sample of 20 plants per acre
+</string>
+    <string name="pinkbollworm_beloweti">
+One live larva out of 20 infested flowers or bolls during 60-120 days after sowing.
+</string>
+    <string name="pinkbollworm_aboveeti">
+More than one live larvae out of 20 infested flowers or bolls during 60-120 days after sowing.
+</string>
+    <string name="pinkbollworm_beloweti1">
+Less than 8 adult moths per night per Pheromone trap during 60-120 days after sowing.
+</string>
+    <string name="pinkbollworm_aboveeti1">
+More than 8 adult moths per night per Pheromone trap during 60-120 days after sowing.
+</string>
+    <string name="spiny_bollworm_beloweti">
+Below 10% infestation on  shoots / squares / bolls
+</string>
+    <string name="spiny_bollworm_aboveeti">
+Morethan 10% infestation on  shoots / squares / bolls
+</string>
+
+    <string name="leafworm_beloweti">
+Less than one Egg mass or cluster of larvae out of sample of 20 plants per acre at early to peak vegetative stage.
+</string>
+
+    <string name="leafworm_aboveeti">
+More than one Egg mass or cluster of larvae out of sample of 20 plants per acre at early to peak vegetative stage.
+</string>
+
+    <string name="leafworm_beloweti1">
+Less than 5 full grown larvae on less than 10 plant out of sample of 20 plants per acre at early to peak vegetative stage.
+   (OR)  One skeletonised leaves per plant on 10 plants out of sample of 20 plants per acre upto 60 days after sowing.
+</string>
+
+    <string name="leafworm_aboveeti1">
+More than 4 full grown larvae on more than 9 plant out of sample of 20 plants per acre at early to peak vegetative stage.
+       (OR)
+More than one skeletonised leaves per plant on 10 plants out of sample of 20 plants per acre upto 60 days after sowing.
+</string>
+
+
+    <string name="thrips_beloweti">
+Less than 5 plants out of sample of 20 plants per acre showing damage Grade II/ Grade III / Grade IV
+</string>
+
+    <string name="thrips_aboveeti">
+More than 5 plants out of sample of 20 plants per acre showing  damage Grade II/ Grade III / Grade IV
+</string>
+
+
+    // **Brand layout **//
+    <string name="Insecticide">
+      Insecticide &#x2009;&#x2009;\u0020&#x2009;&#x2009;\u0020&#x2009;&#x2009;\u0020
+        </string>
+
+    <string name="Formulation">
+     Formulation\n(gm/ml)
+        </string>
+    <string name="active_ingredient">
+     Active\ningredient\n(gm)
+        </string>
+    <string name="Dilution">
+     Dilution\n(water\nin Ltr)
+        </string>
+    <string name="Waiting_peroid">
+      Waiting\nPeriod\n(Days)
+        </string>
+    <string name="Brand_Name">
+      Brand Name
+        </string>
+    <string name="Approximate">
+      Approximate\nPrice(Rs)
+        </string>
+    // ** jassid **//
+    <string-array name="jassid">
+        <item>@drawable/l9ja1</item>
+        <item>@drawable/l10ja2</item>
+        <item>@drawable/l11ja3</item>
+        <item>@drawable/l12ja4</item>
+        <item>@drawable/l13ja5</item>
+        <item>@drawable/l16ja6</item>
+        <!--<item>@drawable/l9ja1</item>-->
+        <!--<item>@drawable/l10ja2</item>-->
+        <!--<item>@drawable/l11ja3</item>-->
+        <!--<item>@drawable/l12ja4</item>-->
+        <!--<item>@drawable/l13ja5</item>-->
+    </string-array>
+
+    //**jassid Classification **//
+
+    <string name="jassid1">
+        Common Name: 	Jassids
+        </string>
+    <string name="jassid2">
+       Scientific Name: Amrascadevastans (Dist.)
+        </string>
+    <string name="jassid3">
+      Family:		Cicadellidae
+        </string>
+    <string name="jassid4">
+      Order:		Hemiptera
+        </string>
+    <string name="jassid5">
+    Pest Category: 	Sap feeder
+        </string>
+    //** jassid Identification **//
+    <string name="jassid_idet1">
+      Egg: Eggs are curved, elongated and yellowish white in colour, and deeply embedded in the midribs of large veins on the undersurface of the leaves.
+        </string>
+    <string name="jassid_idet2">
+    Nymph: Nymphs are flattened, pale yellowish green with characteristic way of moving diagonally in relation to their body, seen on the lower surface of leaves during daytime.
+        </string>
+    <string name="jassid_idet3">
+    Adult: Adults are about 3.5 mm in length. They are elongate and wedge shaped with pale green body. Adults are very active with sideway movements but quick to fly.
+        </string>
+    <string name="jassid_idet4">
+    Pest attacks the crop during 1-50 days age and attack is severe during winter.
+        </string>
+    //** jassid Symptoms of damage **//
+    <string name="jassid_syd1">
+  Both nymphs and adults suck the plant sap and introduce salivary toxins that impair photosynthesis in proportion to the amount of feeding.
+        </string>
+    <string name="jassid_syd2">
+     1st and 2nd  instar nymphs feed near bases of the leaf veins, later instars get distributed all over the leaves but feed chiefly on the under surface of leaves.
+        </string>
+    <string name="jassid_syd3">
+      The affected leaves curl downwards, turn yellowish, then brownish before drying and shedding.
+        </string>
+    <string name="jassid_syd4">
+   Severe incidence lead to stunting of young plants and results in “hopper burn” injury.
+        </string>
+
+    //** jassid Life History **//
+
+    <string name="jassid_Lh1">
+     The female inserts about 15 eggs inside leaf veins. The incubation period ranges from 4-11 days. The nymphal period occupies 7-21 days depending upon weather conditions. Eleven generations have been estimated to occur in a year. Nymphs moult five times. Average number of eggs laid by female is about 15 with a maximum of 29.
+        </string>
+    <string name="jassid_Lh2">
+      Jassids survive on a variety of wild hosts during dry season. Populations of the jassids occur throughout the year.
+        </string>
+
+    //** jassid Biological Control **//
+
+    <string name="jassid_bc1">
+     Inter-crop with cluster bean, cowpea or sorghum or soybean or black gram to encourage predators of sucking pests.
+        </string>
+    <string name="jassid_bc2">
+    Release predator Chrysoperla zastrouviearabica or Coccinella septempunctata or Syrphus / Scymnus sp. Conserve spiders Distinaalbida and ants like Camponotus sp.
+        </string>
+    <string name="jassid_bc3" formatted="false">
+     Neem oil 1.0% + Neem Seed Kernel Extract 5.0% + 0.05-0.1% detergent
+        </string>
+    <string name="jassid_bc4">
+             Azadirachtin 0.03% (300 ppm) Neem Oil Based WSP Containing
+        </string>
+    <string name="jassid_bc5">
+     Verticillium lecanii 10gms/lit of water, wherever good formulations are available from reliable manufacturers
+        </string>
+    <string name="jassid_bc6">
+     Metarhizium anisopliae @ 50g (2 X 108 CFU/gm) or Verticillium lacanni @ 50 g (2X 108 CFU/gm) in 10 liters of water
+        </string>
+
+
+    //** jassid Cultural and Mechanical Control **//
+
+    <string name="jassid_Cmc1">
+    Sow the resistant varieties early.
+        </string>
+    <string name="jassid_Cmc2">
+    Do not use high doses of nitrogenous fertilizers.
+        </string>
+    <string name="jassid_Cmc3">
+    Grow cowpea/ onion/ soybean as an intercrop in cotton to reduce early stage pest. Use Okra as a trap crop.
+        </string>
+    <string name="jassid_Cmc4">
+     Adopt proper crop rotation. During summer deep ploughing to expose soil inhabitating insects.  Remove and destroy crop residues/alternate host plants
+        </string>
+    <string name="jassid_Cmc5">
+    Use yellow sticky traps.
+        </string>
+    <string name="jassid_Cmc6">
+    Hand picking and destruction of affected plant parts, stressed floral bodies,  resettled flowers
+        </string>
+    <string name="jassid_Cmc7">
+      Installation of bird perches: "T" shape wooden/bamboo sticks @ 50/ha should be erected for encouraging predatory birds.
+        </string>
+
+
+    //** Jassid Chemical /control screen **//
+    <string-array name="Jassid_chemical_brand" formatted="false">
+        <item>ACEPHATE 75% SP</item>
+        <item>ACETAMIPRID 20% SP</item>
+        <item>BUPROFEZIN 25% SC </item>
+        <item>CARBARYL 50% WP </item>
+        <item>CHLORPYRIFOS 50% + CYPERMETHRIN 5%EC </item>
+        <item>CYPERMETHRIN 3% + QUINALPHOS 20% EC </item>
+        <item>DELTAMETHRIN 2.8% EC </item>
+        <item>DIAFENTHIURON 50% WP</item>
+        <item>FENVALERATE 20% EC </item>
+        <item>FLONICAMID 50% WG </item>
+        <item>IMIDACLOPRID 17.8% SL </item>
+        <item>LAMBDA-CYHALOTHRIN 2.5% EC </item>
+        <item>MONOCROTOPHOS 36% SL </item>
+        <item>PROFENOFOS 50% EC </item>
+        <item>THIACLOPRID 21.7% SC </item>
+        <item>THIAMETHOXAM 25% WG </item>
+    </string-array>
+
+    //** Jassid Insecticide and its brand names **//
+
+    <string name="DIAFENTHIURON_50_WP_ja">300:600:500-1000:22</string>
+    <string name="FLONICAMID_50_WG_ja">75:150:500:25</string>
+    <string name="BUPROFEZIN_25_SC_ja">100:-:-:-</string>
+    <string name="IMADACLOPRID_17_8_SL_ja">20:100-125:500-700:40</string>
+    <string name="THIAMETHOXAM_25_WG_ja">25:100:500-750:21</string>
+    <string name="ACEPHATE_75_SP_ja">292:390:500-1000:15</string>
+    <string name="ACETAMIPRID_20_SP_ja">10:50:500-600:15</string>
+    <string name="DELTAMETHRIN_2_8_EC_ja">10.0:400:400-600:-</string>
+    <string name="FENVALERATE_20_EC_ja">25-40:125-200:250-400:7</string>
+    <string name="LAMBDA_CYHALOTHRIN_2_5_EC_ja">15-25:600-1000:400-600:21</string>
+    <string name="MONOCROTOPHOS_36_SL_ja">175:437:500-1000:-</string>
+    <string name="THIACHLOPRID_21_7_SC_ja">24–30:100–125:500:52</string>
+    <string name="CARBARYL_50_WP_ja">1000:2000:500-1000:22</string>
+    <string name="CHLORPYRIFOS_50_CYPERMETHRIN_5_EC_ja">500+50:1000:500-1000:15</string>
+    <string name="PROFENOPHOS_50_EC_ja">500:1000:500-1000:15</string>
+    <string name="CYPERMETHRIN_3_QUINALPHOS_20_EC_ja">	-:1000-1250:500-600:15</string>
+
+
+    //** Aphid **//
+    <string-array name="aphid">
+        <item>@drawable/b14ap7</item>
+        <item>@drawable/f1ap3</item>
+        <item>@drawable/f2ap4</item>
+        <item>@drawable/l1ap1</item>
+        <item>@drawable/l2ap5</item>
+        <item>@drawable/l3ap6</item>
+        <item>@drawable/l17ap8</item>
+        <item>@drawable/s1ap2</item>
+        <item>@drawable/s4ap9</item>
+        <!--<item>@drawable/l1ap1</item>-->
+        <!--<item>@drawable/l2ap5</item>-->
+        <!--<item>@drawable/l3ap6</item>-->
+        <!--<item>@drawable/f1ap3</item>-->
+        <!--<item>@drawable/f2ap4</item>-->
+        <!--<item>@drawable/s1ap2</item>-->
+    </string-array>
+
+    //** Aphids Classification **//
+    <string name="aphid1">
+        Common name : Aphids
+        </string>
+    <string name="aphid2">
+       Scientific Name : Aphis gossypii Glover
+        </string>
+    <string name="aphid3">
+      Family  : Aphididae
+        </string>
+    <string name="aphid4">
+       Order : Homoptera
+        </string>
+    <string name="aphid5">
+        Pest Category: Sap feeder
+        </string>
+    //** Aphids Identification **//
+    <string name="Aphids_idet1">
+      Egg: The eggs are yellow, but they soon become shiny black in colour.
+        </string>
+    <string name="Aphids_idet2">
+     Nymph: Nymphs are small, yellowish, or brownish on the under surface of the leaves and on the terminal shoots and are mostly wingless.  The nymphal period averages about 7-9 days.
+        </string>
+    <string name="Aphids_idet3">
+    Adult: Adults are mostly wingless and yellowish brown to black in colour, about 1.25 mm long with  pair of small upright backward-pointing tubes found on the dorsal side of the last segment of the bodies of aphids
+        </string>
+    <string name="Aphids_idet4">
+ Aphids vary in size and colour depending on conditions. In cool conditions they are medium-sized and blackish green or green spotted with dark green. In hot conditions they are smaller and are very pale whitish yellow. Most commonly they are light green spotted with darker green.
+ </string>
+
+    //** Aphids Symptoms of damage **//
+    <string name="Aphids_syd1">
+   Leaf crumpling and downwards curling hindering photosynthetic capacity of the plant. Younger plants suffer more attack than older plants.
+        </string>
+    <string name="Aphids_syd2">
+    Leaves appear shiny and sticky due to honey dew excreted by the insects.  Later, sooty molds grow on honey dew and leaves have a black coating.
+        </string>
+    <string name="Aphids_syd3">
+     Aphid populations are seen at the terminal buds and also found below cotton leaves sucking nutrients from the plant
+        </string>
+    <string name="Aphids_syd4">
+   Activity of ants are commonly but they are there to collect honeydew excreted by aphids, and may even hinder predation by other insects.
+        </string>
+
+    //** Aphids Life History **//
+
+    <string name="Aphids_Lh1">
+    Aphids live in colonies.  In a day female aphid may give birth to 8-22 nymphs. Nymphal period lasts for 7-9 days and the adults live for 12-20 days. In all, the pest has 12-14 generations per year.
+        </string>
+    <string name="Aphids_Lh2" formatted="false">
+      The duration of the adult\'s reproductive period is about 15 days, and the post-reproductive period five days.
+        The optimal temperature for reproduction is reported to be about 21 to 27 degrees celsius. The females produce a total of about 70 to 80 offspring at a rate of 4.3 per day.
+        </string>
+    <string name="Aphids_Lh3">
+     Aphids produce sugary excretion called ‘honey dew’ on which sooty mould grows. Ant activity is associated due to the honey excretion by aphids. Ants transmit aphids from plant to plant.
+        </string>
+    <string name="Aphids_Lh4">
+     Aphids have a large host range with varying durations of development and reproductive rate.
+        </string>
+    <string name="Aphids_Lh5">
+    Excessive nitrogenous fertilizer applications stimulate faster development of aphids.
+        </string>
+
+    //** Aphids Biological Control **//
+
+    <string name="Aphids_bc1">
+   Release predator Chrysoperla zastrouviearaabica or Coccinella septumpunctata or Syrphus / Scymnus sp.
+        </string>
+    <string name="Aphids_bc2">
+    Encourage and conserve spiders Distinaalbida and ants like Camponotus sp.
+        </string>
+    <string name="Aphids_bc3">
+     Metarhizium anisopliae @ 50g (2 X 108 CFU/gm) or  Verticillium lacanni @ 50 g (2X 108 CFU/gm) in 10 liters of water
+        </string>
+    <string name="Aphids_bc4" formatted="false">
+      Soap solution may be used to reduce Aphid population.
+        </string>
+    <string name="Aphids_bc5">
+
+        </string>
+    <string name="Aphids_bc6">
+
+        </string>
+
+    //** Aphids Cultural and Mechanical Control **//
+
+    <string name="Aphids_Cmc1">
+     Avoid late sowing and excessive use of nitrogenous fertilizers.
+        </string>
+    <string name="Aphids_Cmc2">
+    Destroy infested shoots during early stages and destruction of various insect stages and the affected plant parts.
+        </string>
+    <string name="Aphids_Cmc3">
+   Handpicking and destruction of various insect stages and the affected plant parts.
+        </string>
+    <string name="Aphids_Cmc4">
+Excessive and unnecessary use of insecticides should be avoided.
+        </string>
+    <string name="Aphids_Cmc5">
+     Infested crops should be destroyed immediately after harvest to prevent excessive dispersal, and it may be possible to destroy
+        </string>
+    <string name="Aphids_Cmc6">
+
+        </string>
+    <string name="Aphids_Cmc7">
+
+        </string>
+
+
+    //** Aphids Chemical /control screen **//
+    <string-array name="Aphids_chemical_brand" formatted="false">
+        <item>ACETAMIPRID 20% SP </item>
+        <item>BUPROFEZIN 25% SC </item>
+        <item>CARBARYL 50% WP </item>
+        <item>CHLORPYRIFOS 20% EC </item>
+        <item>CHLORPYRIFOS 50% + CYPERMETHRIN 5%EC </item>
+        <item>DELTAMETHRIN 2.8% EC </item>
+        <item>DIAFENTHIURON 50%WP</item>
+        <item>FENVALERATE 20% EC </item>
+        <item>FLONICAMID 50% WG </item>
+        <item>IMIDACLOPRID 17.8% SL </item>
+        <item>MONOCROTOPHOS 36% SL </item>
+        <item>PROFENOFOS 50% EC </item>
+        <item>THIACLOPRID 21.7% SC </item>
+        <item>THIAMETHOXAM 25% WG </item>
+    </string-array>
+
+
+    //** Aphids Insecticide and its brand names **//
+
+    <string name="FLONICAMID_50_WG_ap">75:150:500:25</string>
+    <string name="DIAFENTHIURON_50_WP_ap"> 300:600:500-1000:21</string>
+    <string name="THIAMETHOXAM_25_WG_ap">50:200:500-750:21</string>
+    <string name="CARBARYL_50_WP_ap">1000:2000:500-1000:22</string>
+    <string name="FENVALERATE_20_EC_ap">25-40:125-200:250-400:7</string>
+    <string name="IMADACLOPRID_17_8_SL_ap">20-25:100-125:500-700:40</string>
+    <string name="CHLORPYRIFOS_20_EC_ap">250:1250:500-1000:-</string>
+    <string name="ACETAMIPRID_20_SP_ap">10:50:500-600:15</string>
+    <string name="DELTAMETHRIN_2_8_EC_ap">10.0:400:400-600:-</string>
+    <string name="MONOCROTOPHOS_36_SL_ap">175:437:500-1000:-</string>
+    <string name="PROFENOPHOS_50_EC_ap">500:1000:500-1000:15</string>
+    <string name="BUPROFEZIN_25_SC_ap">100:-:-:-:-</string>
+    <string name="CHLORPYRIFOS_50_CYPERMETHRIN_5_EC_ap">500+50:1000:500-1000:15</string>
+    <string name="THIACHLOPRID_21_7_SC_ap">24 – 30:100 – 125:500:52</string>
+
+
+    //** whitefly **//
+    <string-array name="whitefly">
+        <item>@drawable/l4wf1</item>
+        <item>@drawable/l5wf2</item>
+        <item>@drawable/l6wf3</item>
+        <item>@drawable/l7wf4</item>
+        <item>@drawable/l8wf5</item>
+        <item>@drawable/l14wf6</item>
+        <item>@drawable/l15wf7</item>
+        <!--<item>@drawable/l4wf1</item>-->
+        <!--<item>@drawable/l5wf2</item>-->
+        <!--<item>@drawable/l6wf3</item>-->
+        <!--<item>@drawable/l7wf4</item>-->
+        <!--<item>@drawable/l8wf5</item>-->
+    </string-array>
+
+    //** whitefly Classification **//
+
+    <string name="whitefly1">
+        Common name : Whiteflies
+        </string>
+    <string name="whitefly2">
+       Scientific Name :BemisiatabaciGenn.
+        </string>
+    <string name="whitefly3">
+      Family  : Aleyrodidae
+        </string>
+    <string name="whitefly4">
+       Order : Hemiptera
+        </string>
+    <string name="whitefly5">
+     Pest Category: Sap feeder
+        </string>
+
+    //** whitefly Identification **//
+    <string name="whitefly_idet1">
+      Egg: Eggs are yellowish white laid singly on the under surface of leaves.
+        </string>
+    <string name="whitefly_idet2">
+     Nymph: Nymphs are yellowish and brownish. They are found in large numbers on underside of leaves.
+        </string>
+    <string name="whitefly_idet3">
+    Adult: Adults are tiny and white in color. They have a yellow body dusted lightly with a white waxy powder. Females are 1.1-1.2 mm long; males are slightly smaller. Antennae of females are longer than males. Large numbers of adults are found in middle region of the plant.
+        </string>
+
+    //** whitefly Symptoms of damage **//
+    <string name="whitefly_syd1">
+    The nymphs and adults cause damage to cotton plants in two ways firstly by sucking the sap and secondly  Leaves become shiny with  excretion of honeydew and formation of  sooty mould  all the over surface of the leaf and lints of opened bolls resulting in process of blackening
+        </string>
+    <string name="whitefly_syd2">
+     Leaves curl upwards and the plant vigour reduces.
+        </string>
+    <string name="whitefly_syd3">
+      Indirect damage results from lint contamination with honeydew and associated fungi and through transmission of leaf curl virus disease. Late season severity affects the seed development and the lint quality.
+        </string>
+    <string name="whitefly_syd4">
+    Insufficient chlorophyll spotsare develop on leaves and in severe cases the vein becomes translucent, thickened and in many cases it drops off prematurely.
+        </string>
+
+    //** whitefly Life History **//
+
+    <string name="whitefly_Lh1">
+      The female whitefly lays the eggs singly on the under surface of leaves and mostly on the top and middle crop canopy. Each female is capable of laying about 120 eggs. The incubation period varies from 3-5 days during spring and summer, 5-17 during autumn and >30 days during winter.
+        </string>
+    <string name="whitefly_Lh2">
+      The nymphs after hatching fix themselves to the underside of the leaves and they moult thrice before pupation. The nymphal period varies from 9-14 days during summer, and 17-19 days during winter.
+        </string>
+    <string name="whitefly_Lh3">
+      The pupal period is 2-8 days. The total life-cycle range from 14 to 107 days depending upon the weather conditions. There are about 12 overlapping generations in a year and the pest also reproduces parthenogenetically at times. Whiteflies have extremely wide host range.
+        </string>
+    <string name="whitefly_Lh4">
+     The period of activity of whiteflies lasts from the emergence of seedling to the full grown crop.
+        </string>
+
+
+    //** whitefly Biological Control **//
+
+    <string name="whitefly_bc1">
+     Naturally occurring biological control in the field is reported to have been effective to the extent of 65%.  Encourage activities of parasitiods like Encarsia shafeei or Eretmocerus spp., smundus.
+        </string>
+    <string name="whitefly_bc2">
+      Release predators Chrysoperlazastrouviearabica@ 2 larvae/plant in early stage of the plant and 4 larvae/plant in later stage.
+        </string>
+    <string name="whitefly_bc3">
+      Release Cheilomenes sexmaculata @ 1.5 lakh adults/ha at random on crop canopy. Other predators such as  Melochilus sexmaculatus or Coccinella septempunctata or Brumus sp. or Scymnus sp are also controls the infestation of whitefly
+        </string>
+    <string name="whitefly_bc4" formatted="false">
+        Neem oil 1.0% + Neem Seed Kernel Extract 5.0% + 0.05-0.1% detergent
+        </string>
+    <string name="whitefly_bc5">
+      Botanicals and biopesticides: Sprays based on Neem oil, castor oil, cotton seed oil, fish oil rosin soap etc., must be preferred to avoid disruption of naturally occurring biological control. If available, Lecanicillium lecanii may be used. Ensure that the sprays reach lower leaf surface to target nymphal stages.
+        </string>
+    <string name="whitefly_bc6">
+        Metarhizium anisopliae @ 50g (2 X 108 CFU/gm) or Verticillium lecanii 10gms/lit of water.
+        </string>
+
+    //** whitefly Cultural and Mechanical Control **//
+
+    <string name="whitefly_Cmc1">
+      Promote Desi cotton varieties: Majority of Desi cotton varieties, species Gossypium arboreum are resistant to the whiteflies and immune to the cotton leaf curl virus (CLCuV). Desi cotton may be preferred in regions which are highly prone to cotton leaf curl virus disease (CLCuD) .
+        </string>
+    <string name="whitefly_Cmc2">
+     Cultivate medium duration (160-180 days) Bt-hybrids for north India which escape from whiteflies infestation especially when sown before 15th may in North Zone.
+        </string>
+    <string name="whitefly_Cmc3">
+    Judicious use of urea: Avoid excessive urea during vegetative phase of the crop. Excessive urea especially before square initiation makes the crop vulnerable to sap-sucking insects especially whiteflies and leaf hoppers.
+        </string>
+    <string name="whitefly_Cmc4">
+Barrier crops: Grow two rows of sorghum or pearl-millet or maize as border around cotton fields.
+        </string>
+    <string name="whitefly_Cmc5">
+        Avoid late sowing and adopt crop rotation with crop which is not the host of white fly.
+        </string>
+    <string name="whitefly_Cmc6">
+During the initial phase of whitefly infestation use ‘yellow sticky traps’ at the canopy height in field to determine economic threshold levels and ‘vacuum suction traps’ for control.
+        </string>
+    <string name="whitefly_Cmc7">
+     Remove and destroy crop residues after last picking.
+        </string>
+
+
+    //** Whitefly Chemical /control screen **//
+    <string-array name="Whitefly_chemical_brand" formatted="false">
+        <item>ACETAMIPRID 20% SP </item>
+        <item>BUPROFEZIN 25% SC </item>
+        <item>CHLORPYRIFOS 20% EC </item>
+        <item>CHLORPYRIFOS 50% + CYPERMETHRIN 5%EC </item>
+        <item>DELTAMETHRIN 2.8% EC </item>
+        <item>DIAFENTHIURON 50% WP</item>
+        <item>FLONICAMID 50% WG  </item>
+        <item>IMIDACLOPRID 17.8% SL  </item>
+        <item>MONOCROTOPHOS 36% SL  </item>
+        <item>PROFENOFOS 50% EC  </item>
+        <item>PYRIPROXYFEN 10% EC </item>
+        <item>SPIROMESIFEN 22.9% SC  </item>
+        <item>THIAMETHOXAM 25% WG  </item>
+    </string-array>
+
+    //** Whitefly Insecticide and its brand names **//
+    <string name="DIAFENTHIURON_50_WP_wh">300:600:500-1000:21</string>
+    <string name="BUPROFEZIN_25_SC_wh">100:-:-:-</string>
+    <string name="FLONICAMID_50WG_wh">75:150:500:25</string>
+    <string name="PYRIPROXYFEN_10_EC_wh">100:1000:500:31</string>
+    <string name="SPIROMESIFEN_22_9_SC_wh">144:600:500:10</string>
+    <string name="ACETAMIPRID_20_SP_wh">20:100:500-600:15</string>
+    <string name="IMIDACHLOPRID_17_8_SL_wh">20 – 25:100 – 125:500 – 700:40</string>
+    <string name="MONOCROTOPHOS_36_SL_wh">150:375:500-1000:-</string>
+    <string name="PROFENOPHOS_50_EC_wh">500:1000:500-1000:15</string>
+    <string name="THIAMETHOXAM_25_WG_wh">50:200:500-750:21</string>
+    <string name="CHLORPYRIFOS_50_CYPERMETHRIN_5_EC_wh">500+50:1000:500-1000:15</string>
+    <string name="CHLORPYRIFOS_20_EC_wh">250:1250:500-1000:-</string>
+    <string name="Deltamethrin_2_8_EC_wh">10.0:400:400-600:-</string>
+
+
+    // ** American bollworm **//
+
+    <string-array name="american_bollworm">
+        <item>@drawable/b5bw7</item>
+        <item>@drawable/b6bw8</item>
+        <item>@drawable/b7bw9</item>
+        <item>@drawable/b8bw10</item>
+        <item>@drawable/f3bw1</item>
+        <item>@drawable/f4bw2</item>
+        <item>@drawable/f5bw3</item>
+        <item>@drawable/f6bw4</item>
+        <item>@drawable/f7bw5</item>
+        <item>@drawable/f8bw6</item>
+        <item>@drawable/l30bw11</item>
+        <item>@drawable/l31bw12</item>
+    </string-array>
+    <!--<item>@drawable/american-bollworm/b5ab7</item>-->
+    <!--<item>@drawable/b6ab8</item>-->
+    <!--<item>@drawable/b7ab9</item>-->
+    <!--<item>@drawable/b8ab10</item>-->
+    <!--<item>@drawable/f3ab1</item>-->
+    <!--<item>@drawable/f4ab2</item>-->
+    <!--<item>@drawable/f5ab3</item>-->
+    <!--<item>@drawable/f6ab4</item>-->
+    <!--<item>@drawable/f7ab5</item>-->
+    <!--<item>@drawable/f8ab6</item>-->
+
+    //** American bollworm Classification **//
+
+    <string name="american_bollworm_cl1">
+        Common Name    : American bollworm
+        </string>
+    <string name="american_bollworm_cl2">
+        Scientific Name: Helicoverpaarmigera Hub
+        </string>
+    <string name="american_bollworm_cl3">
+      Family    &#160;  &#160;  &#160;  &#160;   &#160;  &#160;  &#160; &#160;    : Noctuidae
+        </string>
+    <string name="american_bollworm_cl4">
+       Order    &#160;  &#160;    &#160;  &#160;   &#160;  &#160;  &#160;   &#160; &#160;  : Lepidoptera
+        </string>
+    <string name="american_bollworm_cl5">
+       Pest Category  &#160; &#160;: Borer
+        </string>
+
+    //** American bollworm Identification **//
+    <string name="american_bollworm_idet1">
+       Egg: Eggs are spherical with a flattened base laid on the tender foliage and calyx of squares and stem of the cotton plants. Colour is white to creamy white after oviposition.
+        </string>
+    <string name="american_bollworm_idet2">
+      Larva: Newly hatched larvae are translucent yellowish white with brown to black head capsules.
+        </string>
+    <string name="american_bollworm_idet3">
+     Pupa: Pupa is smooth surfaced, brown, rounded both anteriorly and posteriorly with two tapering parallel spines at posterior tip. Pupae are formed at a depth of 2.5-12.5 cm in the soil.
+        </string>
+
+    <string name="american_bollworm_idet4">
+      Adult: adults are stout bodied moths, greenish yellow to buff to brown with darker brown or blackish markings. Males are light brown with greenish cast. Females are darker than males.
+        </string>
+
+
+    //** American bollworm Symptoms of damage **//
+
+    <string name="american_bollworm_syd1">
+       The larvae feed on the leaves initially and then bore on to the square/bolls and seeds with their head thrust into the boll, leaving the rest of the body outside
+        </string>
+    <string name="american_bollworm_syd2">
+       Larvae show preference for feeding on squares and flowers when present, however feed on young bolls also.
+        </string>
+    <string name="american_bollworm_syd3">
+     The entry holes are large and circular at the base of the squares or bolls  with or without larvae
+        </string>
+
+
+    //** American bollworm Life History **//
+
+    <string name="american_bollworm_Lh1">
+       Egg period is for 3 to 5 days. Larval and pupal periods last for 17 to 35 and 17 to 20 days, respectively. The life cycle is completed in 25-60 days. On an average female moth lays 700 eggs during its longevity of 8-12 days. The pest is polyphagous, voracious in feeding and has wide host range, various colour forms and continues to occur year round. They are multivoltine and have overlapping generations. The moths are highly mobile able to fly up to 200 km and thus have wider regional distribution.
+        </string>
+    <string name="american_bollworm_Lh2">
+      First and second generations are found on several crops and weed hosts. Second generation usually infests cotton in low numbers. Populations increase dramatically during third and fourth generations with major outbreaks coinciding with peak squaring of first and second flush.
+        </string>
+
+
+    //** American bollworm Biological Control **//
+
+    <string name="american_bollworm_bc1">
+     Release of egg parasitoids like Trichogramma chilonisor T. brasielenis or T. Achaea @ 150,000 /ha from 45th day onwards at 10-15 days interval (6 releases) and larval parasitoids such as Chilonus blackburni or Bracon brevicornis or Telenomus heliothidae or Carceliaillotaor Coteria kazat or Campoletis chloridae @ 2000 adults/ha at 15 days interval. Release pupa parasitoids Brachymeria sp. Release of the predators Chrysoperla zastrouviearabica or Scymnus sp. or Eulophids would suppress the population of larvae.
+        </string>
+    <string name="american_bollworm_bc2">
+
+        Application of fungal pathogens like Beauveria bassiana or under humid conditions is effective.
+        </string>
+    <string name="american_bollworm_bc3" formatted="false">
+   Azadirachtin 0.3% (3000 PPM)  Neem Seed Kernel Based E.C. or Beauveria bassiana 1.15% W.P. 400 gm/ha;
+        </string>
+    <string name="american_bollworm_bc4">
+        Spray HaNPV @ 250 LE/ha from 35th to 60th day of crop stage.
+
+        </string>
+    <string name="american_bollworm_bc5">
+       Use 5% neem seed kernel extract (NSKE).
+        </string>
+    <string name="american_bollworm_bc6">
+        </string>
+    <string name="american_bollworm_bc7">
+        </string>
+
+    //** American bollworm Cultural and Mechanical Control **//
+
+    <string name="american_bollworm_Cmc1">
+     Adoption of closed crop seasons, discouraging monocropping and advocating crop rotation with non-host crops reduce the food supply and shelter to H. armigera.
+        </string>
+    <string name="american_bollworm_Cmc2">
+      Preplanting clean up measures during off-season to keep the fields, their bunds and borders free of weed hosts are a must to break the link for the pest between cotton and alternate host crops.
+        </string>
+    <string name="american_bollworm_Cmc3">
+   Plough deeply, clean cultivation to expose the resting pupae, crop rotation and avoidance of ratooning reduces pest population.
+        </string>
+    <string name="american_bollworm_Cmc4">
+  Culitvate H. armigera tolerant varieties.
+        </string>
+    <string name="american_bollworm_Cmc5">
+     Pheromone traps of H. armigera can be set up @ two per ha that attract male moths
+        </string>
+    <string name="american_bollworm_Cmc6">
+     The mechanical removal and destruction of the larvae during outbreak years is more successful than the insecticidal management wherein the control failure occurs.
+        </string>
+    <string name="american_bollworm_Cmc7">
+   Don’t practices that attract more attack by bollworms through increased vegetative growth such as closer spacing; excessive use of systemic insecticides during early season for sucking pest management and excessive nitrogen application should be avoided.
+        </string>
+
+    //** American bollworm Economic Threshold Level **//
+
+    <string name="american_bollworm_etl1">
+         One egg or larvae per plant
+    </string>
+    <string name="american_bollworm_etl2">
+         Morethan one egg/larvae per plant
+    </string>
+    <string name="american_bollworm_etl3">
+         Morethan 5-10% Infested fruiting bodies
+    </string>
+    <string name="american_bollworm_etl4">
+        Morethan 10% Infested fruiting bodies
+    </string>
+
+    //** American bollworm Chemical /control screen **//
+
+    <string-array name="american_bollworm_chemical_brand" formatted="false">
+        <item>ACEPHATE 75% SP </item>
+        <item>CARBARYL 50% WP </item>
+        <item>CHLORANTRANILIPROLE 18.5% SC</item>
+        <item>CHLORPYRIFOS 20% EC </item>
+        <item>CHLORPYRIFOS 50% + CYPERMETHRIN 5%EC </item>
+        <item>CYPERMETHRIN 10% EC </item>
+        <item>CYPERMETHRIN 3% + QUINALPHOS 20% EC </item>
+        <item>DELTAMETHRIN 2.8% EC </item>
+        <item>DIFLUBENZURON 25% WP </item>
+        <item>EMAMECTIN BENZOATE 5% SG </item>
+        <item>ETHION 40% + CYPERMETHRIN 5% EC </item>
+        <item>FENVALERATE 20% EC</item>
+        <item>FLUBENDIAMIDE 20% WG</item>
+        <item>INDOXACARB 14.5% SC </item>
+        <item>LAMBDA-CYHALOTHRIN 2.5% EC </item>
+        <item>LAMBDA-CYHALOTHRIN 5% EC</item>
+        <item>LUFENURON 5.4% EC </item>
+        <item>MONOCROTOPHOS 36% SL </item>
+        <item>NOVALURON 10% EC </item>
+        <item>PROFENOFOS 40% + CYPERMETHRIN 4% EC</item>
+        <item>PROFENOFOS 50% EC </item>
+        <item>QUINALPHOS 20% AF </item>
+        <item>SPINOSAD 45.0% SC </item>
+        <item>THIODICARB 75% WP </item>
+    </string-array>
+
+
+    //** American bollworm Insecticide and its brand names **//
+
+    <string name="CHLORANTRANILIPROLE_18_5_SC_am">30:150:500:9    </string>
+    <string name="FLUBENDIAMIDE_20_WG_am"> 50:250:500:30 </string>
+    <string name="SPINOSAD_45_0_SC_am">75-100:165-220:500:10    </string>
+    <string name="EMAMECTIN_BENZOATE_5_SG_am">	9.5-11.0:190-220:500:10</string>
+    <string name="INDOXACARB_14_5_SC_am">75:500:600-1000:16</string>
+    <string name="THIODICARB_75_WP_am">750:1000:500:30</string>
+    <string name="DIFLUBENZURON_25_WP_am">75:300:500-1000:-</string>
+    <string name="NOVALURON_10_EC_am">100:1000:600-1000:40</string>
+    <string name="LUFENURON_5_4_EC_am">30:600:500-750:48:-</string>
+    <string name="ACEPHATE_75_SP_am">292:390:500-1000:15</string>
+    <string name="PROFENOPHOS_50_EC_am">	500:1000:500-1000:15 </string>
+    <string name="CYPERMETHRIN_10_EC_am">40-70:160-280:400-800:-</string>
+    <string name="DELTAMETHRIN_2_8_EC_am">12.5:500:400-600:-</string>
+    <string name="LAMBDA_CYHALOTHRIN_2_5_EC_am">15-25:600-1000:400-600:21 </string>
+    <string name="LAMBDA_CYHALOTHRIN_5_EC_am">15-25:300-500:400-600:21</string>
+    <string name="MONOCROTOPHOS_36_SL_am"> 450-800:1125-2250:500-1000:-</string>
+    <string name="CHLORPYRIFOS_50_CYPERMETHRIN_5_EC_am">500+50:1000:500-1000:15 </string>
+    <string name="CYPERMETHRIN_3_QUINALPHOS_20_EC_am">-:1000-1250:500-600:15 </string>
+    <string name="ETHION_40_CYPERMETHRIN_5_EC_am">400+50:1000:500:15 </string>
+    <string name="PROFENOPHOS_40_CYPERMETHRIN_4_EC_am">440-660:1000-1500:500-1000:14 </string>
+    <string name="CARBARYL_50_WP_am">	1000:2000:500-1000:22 </string>
+    <string name="CHLORPYRIFOS_20_EC_am">	250:1250:500-1000:- </string>
+    <string name="FENVALERATE_20_EC_am">75-100:375-500:700-900:7 </string>
+    <string name="QUINALPHOS_20_AF_am">350-500:1750-2500:750-1000:7 </string>
+
+
+    // *DOSAGE A.I *//
+    <string name="ai1">
+       30
+    </string>
+    <string name="ai2">
+         50
+    </string>
+    <string name="ai3">
+         75-100
+    </string>
+    <string name="ai4">
+         9.5-11.0
+    </string>
+    <string name="ai5">
+        75
+    </string>
+    //Formulation//
+    <string name="formulation1">
+      150
+    </string>
+    <string name="formulation2">
+         250
+    </string>
+    <string name="formulation3">
+        165-220
+    </string>
+    <string name="formulation4">
+         165-220
+    </string>
+    <string name="formulation5">
+       500
+    </string>
+
+    //Dilution//
+    <string name="dilution1">
+      500
+    </string>
+    <string name="dilution2">
+        500
+    </string>
+    <string name="dilution3">
+        500
+    </string>
+    <string name="dilution4">
+         500
+    </string>
+    <string name="dilution5">
+       600-1000
+    </string>
+
+    // Waiting Period//
+
+    <string name="waiting_period1">
+     9
+    </string>
+    <string name="waiting_period2">
+        30
+    </string>
+    <string name="waiting_period3">
+        10
+    </string>
+    <string name="waiting_period4">
+         10
+    </string>
+    <string name="waiting_period5">
+       16
+    </string>
+
+    //Brand name//
+
+    <string name="brand_name1a">
+    DuPont-<b>Coragen</b>
+    </string>
+    <string name="brand_name2a">
+        PL industries-<b>Fluton</b>
+    </string>
+    <string name="brand_name3a">
+      Bayer-<b>Spinter</b>
+    </string>
+    <string name="brand_name3b">
+     Rallis -<b>Taffin</b>
+    </string>
+    <string name="brand_name3c">
+    Modern -<b>Spinner</b>
+    </string>
+    <string name="brand_name4a">
+        Syngenta -<b>Proclaim 5 SG</b>
+    </string>
+    <string name="brand_name4b">
+        Piramyd -<b>Peraclaim</b>
+    </string>
+    <string name="brand_name4c">
+        Kalyani -<b>EMAKAL</b>
+    </string>
+    <string name="brand_name5">
+      Piramyd -<b>P-want</b>
+    </string>
+    <string name="brand_name5a">
+      Kalyani -<b>Indocab</b>
+    </string>
+    <string name="brand_name5b">
+       Modern-<b>Winner</b>
+    </string>
+    <string name="brand_name5c">
+       Golden Crop -<b>Force</b>
+    </string>
+    <string name="brand_name5d">
+       Heranba -<b>Heroxa</b>
+    </string>
+    <string name="brand_name5e">
+       GFG –<b>Duster</b>
+    </string>
+    <string name="brand_name5f">
+       Amber  -<b>ARAV</b>
+    </string>
+    <string name="brand_name5g">
+       Nathagri -<b>Advaunt</b>
+    </string>
+    <string name="brand_name5h">
+      Cropcine –<b>Ciwant</b>
+    </string>
+    <string name="brand_name5i">
+      Gujratpesticided –<b>AONE</b>
+    </string>
+    <string name="brand_name5j">
+       Willowood -<b>INDICA</b>
+    </string>
+
+    //Approximate Rate//
+    <string name="rate1a_brand_name1a">
+     Rs. 470/= /30 ml
+    </string>
+    <string name="rate2a_brand_name2a">
+ Nil
+    </string>
+    <string name="rate3a_brand_name3a">
+        Rs.1267/=/75 ml
+    </string>
+    <string name="rate3b_brand_name3b">
+       Rs.1183/=/75 ml
+    </string>
+    <string name="rate4a_brand_name4a">
+       Rs.710/=/ 100 gm
+    </string>
+    <string name="rate4b_brand_name4b">
+      Rs.300/=/ 100 gm
+    </string>
+    <string name="rate5a_brand_name5a">
+      Rs.500/=/ 500 ml
+    </string>
+    <string name="rate6a_brand_name6a">
+
+    </string>
+
+
+    // ** Pink Bollworm **//
+
+    <string-array name="pink_bollworm">
+        <item>@drawable/b9pb2</item>
+        <item>@drawable/b10pb4</item>
+        <item>@drawable/b11pb5</item>
+        <item>@drawable/b12pb6</item>
+        <item>@drawable/b13pb8</item>
+        <item>@drawable/b19pb9</item>
+        <item>@drawable/f9pb1</item>
+        <item>@drawable/f10pb3</item>
+        <item>@drawable/f11pb7</item>
+    </string-array>
+    //** Pink Bollworm Classification **//
+
+    <string name="pink_bollworm_cl1">
+        Common Name    : Pink Bollworm
+        </string>
+    <string name="pink_bollworm_cl2">
+        Scientific Name:    Pectinophora gossypiella    Saund.
+        </string>
+    <string name="pink_bollworm_cl3">
+      Family    &#160;  &#160;  &#160;  &#160;   &#160;  &#160;  &#160; &#160;    : Gelechiidae
+        </string>
+    <string name="pink_bollworm_cl4">
+       Order    &#160;  &#160;    &#160;  &#160;   &#160;  &#160;  &#160;   &#160; &#160;  :  Lepidoptera
+        </string>
+    <string name="pink_bollworm_cl5">
+       Pest Category  &#160; &#160;:  Borer
+        </string>
+
+    //** Pink Bollworm Identification **//
+    <string name="pink_bollworm_idet1">
+       Egg: Eggs are very small and pearl white in colour, smooth, oval in shape measuring approximately 0.5 mm long, 0.25 mm wide. Eggs are laid singly or in groups of 4-5 on the underside of tender parts of the plant (shoots, flower buds, leaves and green bolls).
+        </string>
+    <string name="pink_bollworm_idet2">
+      Larva: In early stage the larva is white and in later stage change to pink in colour. The larvae have dark brown head.
+        </string>
+    <string name="pink_bollworm_idet3">
+     Initial stage of pupae is light brown in colour and gradually become dark brown during later stage. Pupa measures up to 7 mm in length.
+        </string>
+
+    <string name="pink_bollworm_idet4">
+      Adult: The adult moth is greyish brown in colour with black spot on the forewings and the hind wings are silvery grey. Moths emerge from pupae in the evening time and hiding in soil debris or cracks during night time.
+        </string>
+
+
+    //** Pink Bollworm Symptoms of damage **//
+
+    <string name="pink_bollworm_syd1">
+      If larva attacks the early buds of less than 10 days old, shedding of buds occurs and larva dies. But in older buds, larva can complete development.
+        </string>
+    <string name="pink_bollworm_syd2">
+      Infestation of larva in flower bud spins webbing that prevents proper flower opening leading to “rosetted-flower” is a  typical of pink bollworm attack.
+        </string>
+    <string name="pink_bollworm_syd3">
+    Ten to twenty days old cotton bolls are attacked from under bracteoles with small exit holes. Larvae feed on the developing seeds. While in younger bolls entire content may be destroyed, in older bolls development could be completed on three to four seeds.  There may be complete infestation of pink bollworm on bolls but need not be any shedding of boll.
+        </string>
+    <string name="pink_bollworm_syd4">
+    Stained lint around feeding areas resulting in bad quality kapas is seen in open bolls. Improper boll opening with damaged seed are obvious.
+        </string>
+    <string name="pink_bollworm_syd5">
+     Early in the season, infested squares continue growing and producing blooms. These infested blooms may have the petals tied together with silken threads, commonly termed "rosetted." The rosetted flowers do not open normally.
+        </string>
+
+
+    //** Pink Bollworm Life History **//
+
+    <string name="pink_bollworm_Lh1">
+       Early in the season, eggs are laid in stalk of the leaf or reproductive structure, the underside of young leaves, on buds or flowers. Once the bolls are 15 days old, the bolls are favoured sites for egg lay.  Eggs normally hatch in 4 to 5 days
+        </string>
+    <string name="pink_bollworm_Lh2">
+     The larvae are white but turn pink as they age.  At hatching, the larvae have a dark head, but as they mature, the head becomes yellowish-brown in color.  They enter squares or bolls very soon after hatching from the eggs. As they feed in squares or bolls they grow to a length of about ¾ inch.  Larvae will feed for 10 to 14 days before pupating.  Larvae usually will leave the fruit and pupate in the soil, requiring about 8 days transforming into an adult.
+        </string>
+    <string name="pink_bollworm_Lh3">
+   During the period of suspended development in an insect, the larvae often spin up in the lint of an open boll and if still active in ginnery, will spin up on bales of lint, bags of seed or in cracks and crevices. Moths emerging from the hibernating larvae are long lived with females and males alive for 56 and 20 days, respectively. Pink bollworm generally occurs at 90 days after sowing and beyond.
+   </string>
+
+
+    //** Pink Bollworm Biological Control **//
+
+    <string name="pink_bollworm_bc1">
+   Release of egg parasitoids Trichogramma chilonis or Bracon elechidae or Elasmus johnstoni or pupal parasitoid Microbraconlefroyi controls the pink bollworm population.
+        </string>
+    <string name="pink_bollworm_bc2">
+Encourage the activities of predators Chrysoperla zastrouviearabica Scymnus sp. or Triphles tantilus or Pyremotesventricosus (mite) or release them in the fields.
+        </string>
+    <string name="pink_bollworm_bc3" formatted="false">
+Apply bacterial formulations Btk. @1 kg/ha.
+        </string>
+    <string name="pink_bollworm_bc4">
+      Follow IPM / IRM strategies using neem based products, botanicals, biopesticides and biological-control especially during the first three months to conserve naturally occurring biological control and to avoid chemical insecticides as much as possible.
+        </string>
+    <string name="pink_bollworm_bc5">
+
+        </string>
+
+
+    //** Pink Bollworm Cultural and Mechanical Control **//
+
+    <string name="pink_bollworm_Cmc1">
+    Since most pink bollworm damage occurs late in the season, planting early and maturing varieties can help prevent late-season pink bollworm damage.
+   </string>
+    <string name="pink_bollworm_Cmc2">
+     While planning for the next season, drying of seeds under sun for 6-8 hours and sowing of acid delinted seeds are effective and economical to prevent the carry-over of pink bollworm to the next cotton season. Maintenance of host free during off-season is a must to ensure a pink boll worm free in the next season.
+        </string>
+    <string name="pink_bollworm_Cmc3">
+ Care must be taken to monitor the pink bollworm infestation on the crop. Keep pheromone traps that attract the male moths. If few male moths are found in the traps, keep 20 nos of traps per hectare, so that mating is disrupted and the population development is arrested.
+        </string>
+    <string name="pink_bollworm_Cmc4">
+  For light and marginal soils under rain-fed tracts to be planted at 90x30 cm. For black-cotton soils, medium-deep soils and/or irrigated conditions to be sown at 120x30 cm or 120x60 cm
+        </string>
+    <string name="pink_bollworm_Cmc5">
+     Pink bollworm goes into diapause at the last larval instar (4th instar) stage. Such larvae spin a loose silky cocoon and are present sometimes in the soil but mostly in crop residues such as in seeds, bolls and stalks. Therefore crop residual management is important to prevent infestation in the subsequent season.
+        </string>
+    <string name="pink_bollworm_Cmc6">
+    Deploy timely crop termination to maintain closed season. Clean up/destruction of cotton stubbles immediate to harvest, avoiding stacking of cotton stalks for fuel purpose over long periods and summer deep plouging to expose the pupae of the surviving larvae constitute post-harvest and off season cultural measures
+        </string>
+    <string name="pink_bollworm_Cmc7">
+
+        </string>
+
+    //** Pink Bollworm Economic Threshold Level **//
+
+    <string name="pink_bollworm_etl1">
+         One egg or larvae per plant
+    </string>
+    <string name="pink_bollworm_etl2">
+         Morethan one egg/larvae per plant
+    </string>
+    <string name="pink_bollworm_etl3">
+         Morethan 5-10% Infested fruiting bodies
+    </string>
+    <string name="pink_bollworm_etl4">
+        Morethan 10% Infested fruiting bodies
+    </string>
+
+    //** Pink Bollworm Chemical /control screen **//
+
+    <string-array name="pink_bollworm_chemical_brand" formatted="false">
+        <item>ACEPHATE 75% SP </item>
+        <item>ALPHACYPERMETHRIN 10% EC </item>
+        <item>CARBARYL 50% WP </item>
+        <item>CHLORANTRANILIPROLE 9.3% + LAMBDA CYHALOTHRIN 4.6% ZC </item>
+        <item>CHLORPYRIFOS 20% EC </item>
+        <item>CHLORPYRIFOS 50% + CYPERMETHRIN 5%EC </item>
+        <item>CHLORPYRIPHOS 16% + ALPHACYPERMETHRIN 1%</item>
+        <item>CYPERMETHRIN 10% EC </item>
+        <item>DELTAMETHRIN 2.8% EC </item>
+        <item>EMAMECTIN BENZOATE 5% SG </item>
+        <item>FENVALERATE 0.4% DP </item>
+        <item>FENVALERATE 20% EC </item>
+        <item>INDOXACARB 14.5% SC </item>
+        <item>LAMBDA-CYHALOTHRIN 2.5% EC </item>
+        <item>LAMBDA-CYHALOTHRIN 5% EC</item>
+        <item>MONOCROTOPHOS 36% SL </item>
+        <item>PROFENOFOS 40% + CYPERMETHRIN 4% EC </item>
+        <item>PROFENOFOS 50% EC </item>
+        <item>THIODICARB 75% WP </item>
+    </string-array>
+
+    <string name="pink_bollworm_chemical1">
+         Chlorantraniliprole 18.5% SC
+    </string>
+    <string name="pink_bollworm_chemical2">
+        Flubendiamide 20% WG
+    </string>
+    <string name="pink_bollworm_chemical3">
+         Spinosad 45.0% SC
+    </string>
+    <string name="pink_bollworm_chemical4">
+         Emamectin Benzoate 5% SG
+    </string>
+    <string name="pink_bollworm_chemical5">
+         Indoxacarb 14.5% SC
+    </string>
+
+    //** Pink Bollworm Insecticide and its brand names **//
+    //Insecticide//
+
+    <string name="FENVALERATE_0_4_DP_pink">80-100:20000-25000:-:7</string>
+    <string name="CARBARYL_50_WP_pink">1000:2000:500-1000:22</string>
+    <string name="CHLORPYRIPHOS_16_ALPHACYPERMETHRIN_1_pink">425:2500:500-750:15</string>
+    <string name="ALPHA_CYPERMETHRIN_10_pink">15-25:165-280:600-1000:7</string>
+    <string name="CYPERMETHRIN_10_EC_pink">50-70:550-760:150-1000:7</string>
+    <string name="DELTAMETHRIN_2_8_EC_pink">12.5:500:400-600:-</string>
+    <string name="INDOXACARB_14_5_SC_pink">75:500:600-1000:16</string>
+    <string name="LAMBDA_CYHALOTHRIN_2_5_EC_pink">15-25:600-1000:400-600:21</string>
+    <string name="MONOCROTOPHOS_36_SL_pink">450-800:1125-2250:500-1000:-</string>
+    <string name="PROFENOPHOS_50_EC_pink">750-1000:1500-2000:500-1000:15</string>
+    <string name="THIODICARB_75_WP_pink">750:1000:500:30</string>
+    <string name="CHLORANTRANILIPROLE_9_3_LAMBDA_CYHALOTHRIN_4_6_ZC_pink">37.5:250:500:20</string>
+    <string name="CHLORPYRIFOS_50_CYPERMETHRIN_5_EC_pink">500+50:1000:500-1000:15</string>
+    <string name="ACEPHATE_75_SP_pink">292:390:500-1000:15</string>
+    <string name="CHLORPYRIFOS_20_EC_pink">250:1250:500-1000:-</string>
+    <string name="FENVALERATE_20_EC_pink">25-40:125-200:250-400:7</string>
+    <string name="EMAMECTIN_BENZOATE_5_SG_pink">9.5-11.0:190-220:500:10</string>
+    <string name="LAMBDA_CYHALOTHRIN_5_EC_pink">15-25:300-500:400-600:21</string>
+    <string name="PROFENOPHOS_40_CYPERMETHRIN_4_EC_pink">440-660:1000-1500:500-1000:14</string>
+
+
+    // ** Spotted bollworm and Spiny Bollworm **//
+
+    <string-array name="spotted_spiny_bollworm">
+        <item>@drawable/b15ea4</item>
+        <item>@drawable/b16ea6</item>
+        <item>@drawable/b17ea7</item>
+        <item>@drawable/f12ea2</item>
+        <item>@drawable/f13ea3</item>
+        <item>@drawable/l25ea5</item>
+        <item>@drawable/s6ea1</item>
+    </string-array>
+
+    //** Spotted bollworm and Spiny Bollworm Classification **//
+
+    <string name="spotted_spiny_bollworm_cl1">
+        Common Name    :   Spotted and spiny bollworms
+        </string>
+    <string name="spotted_spiny_bollworm_cl2">
+        Scientific Name:    Earias vittella Feb. Earias. insulana Bois
+        </string>
+    <string name="spotted_spiny_bollworm_cl3">
+      Family    &#160;  &#160;  &#160;  &#160;   &#160;  &#160;  &#160; &#160;    : Noctuidae
+        </string>
+    <string name="spotted_spiny_bollworm_cl4">
+       Order    &#160;  &#160;    &#160;  &#160;   &#160;  &#160;  &#160;   &#160; &#160;  :  Lepidoptera
+        </string>
+    <string name="spotted_spiny_bollworm_cl5">
+       Pest Category  &#160; &#160;:  Borer
+        </string>
+
+    //** Spotted bollworm and Spiny Bollworm Identification **//
+    <string name="spotted_spiny_bollworm_idet1">
+       Egg: Eggs are spherical in structure less than 0.5 mm diameter and bluish green in colour. Eggs are laid singly on most part of the cotton plant (flower buds, bolls, stalk of the leaves or reproductive structure); the favoured region being young shoots.
+        </string>
+    <string name="spotted_spiny_bollworm_idet2">
+      Larva: Full grown larva is about 1.3-1.8 cm long, stout and spindle shaped bearing a number of long hairs on each segment. Larva is light brown, tinged with grey to green, pale along the mid dorsal line with dark spots at the base of middle part of the body
+        </string>
+    <string name="spotted_spiny_bollworm_idet3">
+     Pupation is in a boat shaped tough silken cocoon that is dirty, white to brownish in colour. Pupae are found on plants or on fallen buds and bolls.
+        </string>
+
+    <string name="spotted_spiny_bollworm_idet4">
+      Adult: Adult moths differ with species. In E. insulana, the head, the upper body, and forewing colour varies from silver green to straw yellow; the far edge of wing is of the same colour. There are three distinct dark cross lines on the wings. Green forms are common during summer, while yellow/brown forms occur toward the end of season. E. vittella, moths are quite distinctively creamy white or peach in colour with a central green wedge running from near to far edge of the forewing.
+        </string>
+
+
+    //** Spotted bollworm and Spiny Bollworm Symptoms of damage **//
+
+    <string name="spotted_spiny_bollworm_syd1">
+     Larvae cause damage by boring into the growing shoots, buds, flowers and bolls.
+        </string>
+    <string name="spotted_spiny_bollworm_syd2">
+     Feeding holes in squares and on bolls are seen with or without larvae however blocked by excrement.
+        </string>
+    <string name="spotted_spiny_bollworm_syd3">
+    The attacked shoots weaken, become wilt and ultimately die, flare up of squares and their shedding, premature dropping or opening of the attacked bolls are common.
+        </string>
+    <string name="spotted_spiny_bollworm_syd4">
+    Terminal shoot dry and wither away when the larvae bore into the pre-square plants.
+        </string>
+    <string name="spotted_spiny_bollworm_syd5">
+
+        </string>
+
+
+    //** Spotted bollworm and Spiny Bollworm Life History **//
+
+    <string name="spotted_spiny_bollworm_Lh1">
+The female moth deposits 2 or 3 eggs on bracts, leaf axils and veins on the under surface of the leaf. A female may lay up to 385 eggs and the incubation period is about 3 days.
+        </string>
+    <string name="spotted_spiny_bollworm_Lh2">
+    The larva becomes fully grown in 10-12 days. The pupal period is 7-10 days. The total life cycle ranges from 20-22 days.    </string>
+    <string name="spotted_spiny_bollworm_Lh3">
+  Population build up is large during the effective boll development phase of crop causing damage to all fruiting bodies.
+   </string>
+    <string name="spotted_spiny_bollworm_Lh4">
+The continuous damage to developing bolls caused by E. vittella along with intermittent rains lead to boll rot and results in large number of premature bolls opening with partial damage.
+</string>
+    <string name="spotted_spiny_bollworm_Lh5">
+Okra and bhendi are the host crops which transmit the pest from one to the next season.
+</string>
+    <string name="spotted_spiny_bollworm_Lh6">
+Earias incidence commences from 3 weeks old crop and the damage to fruiting bodies occurs during 15-16 weeks old crop.   Earias incidences are high whenever H.armigera incidence is low to moderate.
+</string>
+
+    //** Spotted bollworm and Spiny Bollworm Biological Control **//
+
+    <string name="spotted_spiny_bollworm_bc1">
+   Release egg parasitoid Trichogramma chilonis, T. brasiliensis, and larval parasitoids Chelonus blackburni or Bracon brevicornis at 35 to 70 days controls the pest infestation.
+        </string>
+    <string name="spotted_spiny_bollworm_bc2">
+Conserve and encourage the activity of the spiders Thomisus sp. and Neosiana sp.
+        </string>
+    <string name="spotted_spiny_bollworm_bc3" formatted="false">
+Spray crop with neem oil 5ml/lit + 5% NSKE + detergent powder per litre water to kill residual larvae
+        </string>
+    <string name="spotted_spiny_bollworm_bc4">
+
+        </string>
+    <string name="spotted_spiny_bollworm_bc5">
+
+        </string>
+
+
+    //** Spotted bollworm and Spiny Bollworm Cultural and Mechanical Control **//
+
+    <string name="spotted_spiny_bollworm_Cmc1">
+    Timely crop termination, destruction of cotton stalks and crop residues in the fields reduce the survival and food supply and shelter to the bollworms.
+</string>
+    <string name="spotted_spiny_bollworm_Cmc2">
+    Plough deeply to expose resting pupae. Pre-planting clean up measures including keep the fields, bunds and borders free of weeds hosts and  destruction of plant debris and trash before sowing to break the link for the pest between cotton and alternate host crops.
+        </string>
+    <string name="spotted_spiny_bollworm_Cmc3">
+ Pheromone traps for the pest  that attract male moths @ 10/ha for monitoring the ETL and timing of spray
+        </string>
+    <string name="spotted_spiny_bollworm_Cmc4">
+  Excessive use of systemic insecticides during early season for sucking pest management and excessive nitrogen application should be avoided.
+        </string>
+    <string name="spotted_spiny_bollworm_Cmc5">
+     The mechanical removal and destruction of the affected shoots along with the larvae during the pre and early squaring crop stage curtails the population build up further in the season.
+        </string>
+    <string name="spotted_spiny_bollworm_Cmc6">
+
+        </string>
+    <string name="spotted_spiny_bollworm_Cmc7">
+
+        </string>
+
+    //** Spotted bollworm and Spiny Bollworm Economic Threshold Level **//
+
+    <string name="spotted_spiny_bollworm_etl1">
+         One egg or larvae per plant
+    </string>
+    <string name="spotted_spiny_bollworm_etl2">
+         Morethan one egg/larvae per plant
+    </string>
+    <string name="spotted_spiny_bollworm_etl3">
+         Morethan 5-10% Infested fruiting bodies
+    </string>
+    <string name="spotted_spiny_bollworm_etl4">
+        Morethan 10% Infested fruiting bodies
+    </string>
+
+    //** Spotted bollworm and Spiny Bollworm Chemical /control screen **//
+
+    <string-array name="spotted_spiny_bollworm_chemical_brand" formatted="false">
+        <item>ACEPHATE 75% SP </item>
+        <item>CARBARYL 50% WP </item>
+        <item>CHLORANTRANILIPROLE 18.5% SC </item>
+        <item>CHLORPYRIFOS 20% EC </item>
+        <item>CHLORPYRIFOS 50% + CYPERMETHRIN 5%EC </item>
+        <item>CYPERMETHRIN 10% EC </item>
+        <item>CYPERMETHRIN 3% + QUINALPHOS 20% EC </item>
+        <item>DELTAMETHRIN 2.8% EC </item>
+        <item>EMAMECTIN BENZOATE 5% SG </item>
+        <item>FENVALERATE 20% EC </item>
+        <item>FLUBENDIAMIDE 39.35% M/M SC </item>
+        <item>INDOXACARB 14.5% SC </item>
+        <item>LAMBDA-CYHALOTHRIN 2.5% EC </item>
+        <item>LAMBDA-CYHALOTHRIN 5% EC</item>
+
+        <item>MONOCROTOPHOS 36% SL </item>
+        <item>PROFENOFOS 40% + CYPERMETHRIN 4% EC </item>
+        <item>PROFENOFOS 50% EC </item>
+        <item>QUINALPHOS 20% AF </item>
+        <item>THIODICARB 75% WP </item>
+    </string-array>
+
+    <string name="spotted_spiny_bollworm_chemical1">
+         Chlorantraniliprole 18.5% SC
+    </string>
+    <string name="spotted_spiny_bollworm_chemical2">
+        Flubendiamide 20% WG
+    </string>
+    <string name="spotted_spiny_bollworm_chemical3">
+         Spinosad 45.0% SC
+    </string>
+    <string name="spotted_spiny_bollworm_chemical4">
+         Emamectin Benzoate 5% SG
+    </string>
+    <string name="spotted_spiny_bollworm_chemical5">
+         Indoxacarb 14.5% SC
+    </string>
+
+    //** Spotted and Spiny Bollworm Insecticide and its brand names **//
+    <string name="CLORANTRANILIPROLE_18_5_S_spotted">30:150:500:9 </string>
+    <string name="FLUBENDIAMIDE_39_35MM_SC_spotted">48-60:100-125:375-500:25 </string>
+    <string name="INDOXACARB_14_5_SC_spotted">75:500:600-1000:16 </string>
+    <string name="ACEPHATE_75_SP_spotted">292:390:500-1000:15 </string>
+    <string name="CARBARYL__50_WP_spotted">1000:2000:500-1000:22 </string>
+    <string name="CHLORPYRIFOS_20_EC_spotted">250:1250:500-1000 </string>
+    <string name="CYPERMETHRIN_3_QUINALPHOS_20_EC_spotted">1000-1250:500-600:15 </string>
+    <string name="FENVALERATE_20_EC_spotted">75-100:375-500:700-900:7 </string>
+    <string name="QUINALPHOS_20_AF_spotted">350-500:1750-2500:750-1000:7 </string>
+    <string name="THIODICARB_75__WP_spotted">750:1000:500:30 </string>
+    <string name="CYPERMETHRIN_10_EC_spotted">50-70:550-760:150-1000:7 </string>
+    <string name="DELTAMETHRIN_2_8_EC_spotted">12.5:500:400-600:- </string>
+    <string name="EMAMECTIN_BENZOATE_5_SG_spotted">9.5-11.0:190-220:500:10 </string>
+    <string name="LAMBDA_CYHALOTHRIN_2_5_EC_spotted">15-25:600-1000:400-600:21 </string>
+    <string name="LAMBDA_CYHALOTHRIN_5_EC_spotted">15-25:300-500:400-600:21 </string>
+    <string name="MONOCROTOPHOS_36_SL_spotted">450-800:1125-2250:500-1000:- </string>
+    <string name="PROFENOPHOS_50_EC_spotted">750-1000:1500-2000:500-1000:15 </string>
+    <string name="CHLORPYRIFOS_50_CYPERMETHRIN_5_EC_spotted">500+50:1000:500-1000:15 </string>
+    <string name="PROFENOPHOS_40_CYPERMETHRIN_4_EC_spotted">440-660:1000-1500:500-1000:14 </string>
+
+
+    // ** Leafworm or Tobacco caterpillar **//
+
+    <string-array name="leafworm_tobacco_caterpillar">
+        <item>@drawable/f14sp8</item>
+        <item>@drawable/l18sp1</item>
+        <item>@drawable/l19sp2</item>
+        <item>@drawable/l20sp3</item>
+        <item>@drawable/l21sp4</item>
+        <item>@drawable/l22sp5</item>
+        <item>@drawable/l23sp6</item>
+        <item>@drawable/l24sp7</item>
+    </string-array>
+    //** Leafworm or Tobacco caterpillar Classification **//
+
+    <string name="leafworm_tobacco_caterpillar_cl1">
+        Common Name    :   Leafworm or Tobacco caterpillar
+        </string>
+    <string name="leafworm_tobacco_caterpillar_cl2">
+        Scientific Name:    Spodoptera litura Boisd
+        </string>
+    <string name="leafworm_tobacco_caterpillar_cl3">
+      Family    &#160;  &#160;  &#160;  &#160;   &#160;  &#160;  &#160; &#160;    : Noctuidae
+        </string>
+    <string name="leafworm_tobacco_caterpillar_cl4">
+       Order    &#160;  &#160;    &#160;  &#160;   &#160;  &#160;  &#160;   &#160; &#160;  :  Lepidoptera
+        </string>
+    <string name="leafworm_tobacco_caterpillar_cl5">
+       Pest Category  &#160; &#160;:  Sap/ Foliage feeder
+        </string>
+
+    //** Leafworm or Tobacco caterpillar Identification **//
+    <string name="leafworm_tobacco_caterpillar_idet1">
+       Egg:Leafworm lays egg in mass contains 300-350 eggs which are arranged in rows up to three layers and are covered by scales from the body of the females.
+        </string>
+    <string name="leafworm_tobacco_caterpillar_idet2">
+      Larva: Larva or caterpillars are 25-35 mm long in size and pale green with dark markings initially which later turn dark brown in color with numerous transverse and longitudinal bands.
+        </string>
+    <string name="leafworm_tobacco_caterpillar_idet3">
+    Pupae are dark brown in colour. Normally pupation occurs in soil.
+        </string>
+
+    <string name="leafworm_tobacco_caterpillar_idet4">
+      Adult:Adult is stout with brownish forewings with paler lines along the veins, and pearly whitish hind wings.
+        </string>
+
+
+    //** Leafworm or Tobacco caterpillar Symptoms of damage **//
+
+    <string name="leafworm_tobacco_caterpillar_syd1">
+     The larvae feed on the under surface of the leaves and skeletonize them leaving only the midrib and veins in severe cases.They also feed on flowers, buds and squares causing considerable loss.
+        </string>
+    <string name="leafworm_tobacco_caterpillar_syd2">
+    Attacked leaves defoliate and shedding of squares with feeding holes occur when larvae are in large numbers
+        </string>
+    <string name="leafworm_tobacco_caterpillar_syd3">
+
+        </string>
+    <string name="leafworm_tobacco_caterpillar_syd4">
+
+        </string>
+
+
+    //** Leafworm or Tobacco caterpillar Life History **//
+
+    <string name="leafworm_tobacco_caterpillar_Lh1">
+    Egg, larva and pupal periods are 3-4, 13-20 and 8-10 days respectively. Life cycle completed in 50-60 days.
+        </string>
+    <string name="leafworm_tobacco_caterpillar_Lh2">
+        </string>
+    <string name="leafworm_tobacco_caterpillar_Lh3">
+
+   </string>
+    <string name="leafworm_tobacco_caterpillar_Lh4">
+
+</string>
+    <string name="leafworm_tobacco_caterpillar_Lh5">
+
+</string>
+
+
+    //** Leafworm or Tobacco caterpillar Biological Control **//
+
+    <string name="leafworm_tobacco_caterpillar_bc1">
+   Release egg parasitoids Trichogramma sp. (1.5 lakh/ha) and larval parasitoids Chelonus blackburni or Telenomus remus or Bracon sp. To control the infestation of the pest
+        </string>
+    <string name="leafworm_tobacco_caterpillar_bc2">
+Release of predators Chrysoperla zastroviearabica @ 50,000 /ha.
+        </string>
+    <string name="leafworm_tobacco_caterpillar_bc3" formatted="false">
+Spray Spodoptera NPV @ 250 lit/ha.
+        </string>
+    <string name="leafworm_tobacco_caterpillar_bc4">
+   Spray crop with Neem oil 5ml/l +5% NSKE+ 1gm detergent powder per litre water to kill residual larvae.
+        </string>
+    <string name="leafworm_tobacco_caterpillar_bc5">
+
+        </string>
+
+
+    //** Leafworm or Tobacco caterpillar Cultural and Mechanical Control **//
+
+    <string name="leafworm_tobacco_caterpillar_Cmc1">
+    Plough deeply to expose the pupae and hiding larvae under the soil
+</string>
+    <string name="leafworm_tobacco_caterpillar_Cmc2">
+   To monitor Spodoptera, pheromone lures can be fixed, however planting of few castor plants along the borders of the cotton fields serve as trap or indicator  plants for Spodoptera.
+        </string>
+    <string name="leafworm_tobacco_caterpillar_Cmc3">
+ Collection and destruction of egg masses and collection and destruction of larvae are feeding in groups,
+        </string>
+    <string name="leafworm_tobacco_caterpillar_Cmc4">
+
+        </string>
+    <string name="leafworm_tobacco_caterpillar_Cmc5">
+    </string>
+
+
+    //** Leafworm or Tobacco caterpillar Economic Threshold Level **//
+
+    <string name="leafworm_tobacco_caterpillar_etl1">
+         One egg or larvae per plant
+    </string>
+    <string name="leafworm_tobacco_caterpillar_etl2">
+         Morethan one egg/larvae per plant
+    </string>
+    <string name="leafworm_tobacco_caterpillar_etl3">
+         Morethan 5-10% Infested fruiting bodies
+    </string>
+    <string name="leafworm_tobacco_caterpillar_etl4">
+        Morethan 10% Infested fruiting bodies
+    </string>
+
+    //** Leafworm or Tobacco caterpillar Chemical /control screen **//
+
+    <string-array name="leafworm_tobacco_caterpillar_chemical_brand" formatted="false">
+        <item>ACEPHATE 75% SP </item>
+        <item>CARBARYL 50% WP </item>
+        <item>CHLORANTRANILIPROLE 18.5% SC </item>
+        <item>CHLORANTRANILIPROLE 9.3% + LAMBDA CYHALOTHRIN 4.6% ZC </item>
+        <item>CHLORPYRIFOS 20% EC </item>
+        <item>DELTAMETHRIN 2.8% EC </item>
+        <item>EMAMECTIN BENZOATE 5% SG </item>
+        <item>FENVALERATE 20% EC </item>
+        <item>INDOXACARB 14.5% SC </item>
+        <item>LAMBDA-CYHALOTHRIN 2.5% EC </item>
+        <item>LAMBDA-CYHALOTHRIN 5% EC</item>
+        <item>MONOCROTOPHOS 36% SL </item>
+        <item>NOVALURON 8.8% SC </item>
+        <item>PROFENOFOS 40% + CYPERMETHRIN 4% EC </item>
+    </string-array>
+
+
+    //** Leafworm or Tobacco caterpillar Insecticide and its brand names **//
+    //Insecticide//
+    <string name="CHLORANTRANILIPROLE_18_5_SC_leafworm">30:150:500:9</string>
+    <string name="NOVALURON_8_8_SC_leafworm">100:1000:500-1000:20</string>
+    <string name="CHLORPYRIFOS_20_EC_leafworm">250:1250:500-1000:-</string>
+    <string name="EMAMECTIN_BENZOATE_5_SG_leafworm">9.5-11.0:190-220:500:10</string>
+    <string name="CHLORANTRANILIPROLE_9_3LAMBDA_CYHALOTHRIN_4_6_ZC_leafworm">37.5:250:500:20</string>
+    <string name="ACEPHATE_75_SP_leafworm">292:390:500-1000:15</string>
+    <string name="CARBARYL_50_WP_leafworm">1000:2000:500-1000:22</string>
+    <string name="DELTAMETHRIN_2_8_EC_leafworm">12.5:500:400-600:-</string>
+    <string name="FENVALERATE_20_EC_leafworm">75-100:375-500:700-900:7</string>
+    <string name="INDOXACARB_14_5_SC_leafworm">75:500:600-1000:16</string>
+    <string name="LAMBDA_CYHALOTHRIN_2_5_EC_leafworm">15-25:600-1000:400-600:21</string>
+    <string name="LAMBDA_CYHALOTHRIN_5_EC_leafworm">15-25:300-500:400-600:21</string>
+    <string name="MONOCROTOPHOS_36_SL_leafworm">450-800:1125-2250:500-1000:-</string>
+    <string name="PROFENOPHOS_40CYPERMETHRIN_4_EC_leafworm">440-660:1000-1500:500-1000:14</string>
+
+    <string name="leafworm_tobacco_caterpillar_chemical1">
+         Chlorantraniliprole 18.5% SC
+    </string>
+    <string name="leafworm_tobacco_caterpillar_chemical2">
+        Flubendiamide 20% WG
+    </string>
+    <string name="leafworm_tobacco_caterpillar_chemical3">
+         Spinosad 45.0% SC
+    </string>
+    <string name="leafworm_tobacco_caterpillar_chemical4">
+         Emamectin Benzoate 5% SG
+    </string>
+    <string name="leafworm_tobacco_caterpillar_chemical5">
+         Indoxacarb 14.5% SC
+    </string>
+
+
+    // ** Thrips **//
+
+    <string-array name="thrips">
+        <item>@drawable/l26th1</item>
+        <item>@drawable/l27th2</item>
+        <item>@drawable/l28th3</item>
+        <item>@drawable/l29th4</item>
+        <item>@drawable/l32th5</item>
+        <item>@drawable/l33th6</item>
+    </string-array>
+    //** Thrips Classification **//
+
+    <string name="thrips_cl1">
+        Common Name    :   Thrips
+        </string>
+    <string name="thrips_cl2">
+        Scientific Name:    Thrips tabaci Linde.
+        </string>
+    <string name="thrips_cl3">
+      Family    &#160;  &#160;  &#160;  &#160;   &#160;  &#160;  &#160; &#160;    : Thripidae
+        </string>
+    <string name="thrips_cl4">
+       Order    &#160;  &#160;    &#160;  &#160;   &#160;  &#160;  &#160;   &#160; &#160;  :  Thysanoptera
+        </string>
+    <string name="thrips_cl5">
+       Pest Category  &#160; &#160;:  Sap feeder
+        </string>
+
+    //** Thrips Identification **//
+    <string name="thrips_idet1">
+       Egg:Eggs are smaller in size, kidney shaped laid in slits in leaf tissues.
+        </string>
+    <string name="thrips_idet2">
+      Larva: Nymphs are smaller in size and blackish in color and look like adults but wingless.
+        </string>
+    <string name="thrips_idet3">
+    Adult:Adults are straw or yellowish brown in colour and elongated measuring 1mm in length. Adults are slender and look like lice. Males are wingless and females have a long narrow strap like wings.
+        </string>
+
+
+    //** Thrips Symptoms of damage **//
+
+    <string name="thrips_syd1">
+    Nymphs and adults tear the leaves and suck the sap from the upper and lower surfaces of leaves.
+        </string>
+    <string name="thrips_syd2">
+ The upper side of the affected leaves turn brown and the lower side becomes silvery white.
+        </string>
+    <string name="thrips_syd3">
+  Leaves become curled upwards, wrinkled and finally get dried. Rusty appearances in patches develop on under surface of leaves.
+        </string>
+
+
+    //** Thrips Life History **//
+
+    <string name="thrips_Lh1">
+    Eggs hatch in 5 days, nymphal and pupal period lasts for 5 and 4-6 days, respectively.
+        </string>
+    <string name="thrips_Lh2">
+    The adults survive for 2-4 weeks. Life cycle of Thrips from egg to adult lasts for 13-19 days and they have about 15 overlapping generations per year including their development on wild plants.
+        </string>
+    <string name="thrips_Lh3">
+  Thrips inhabit on leaves of cotton.  Thrips develops on the weeds during the off-season and migrate to cotton as soon as the seedlings emerge above ground and survive up to mid-season and colonise on bolls during the late season.
+   </string>
+    <string name="thrips_Lh4">
+ Males are rare and the reproduction is parthenogenetic.
+</string>
+
+
+    //** Thrips Biological Control **//
+
+    <string name="thrips_bc1">
+      Encourage the activity of parasitoids Thripoctenusbriu, Triphlepstantilus and mite Campsid sp.
+        </string>
+    <string name="thrips_bc2" formatted="false">
+      Release Trichogramma chilonis 1.5 lakhs/ha. Release Chrysoperla zaastrouviearabica @ 2 larvae/plant in early stage of the plant and 4 larvae/plant in later stage or release Cheilomenes sexmaculata @ 1.5 lakh adults/ha at random on crop canopy.
+    </string>
+    <string name="thrips_bc3" formatted="false">
+         Metarhizium anisopliae @ 50g (2 X 108 CFU/gm) or Verticillium lacanni @ 50 g (2X 108 CFU/gm) in 10 liters of water
+        </string>
+    <string name="thrips_bc4">
+   Avoid spraying of any chemical insecticide during initial crop growth stage.
+        </string>
+
+
+    //** Thrips Cultural and Mechanical Control **//
+
+    <string name="thrips_Cmc1">
+    Avoid late sowing of the crop.
+ </string>
+    <string name="thrips_Cmc2">
+ Grow cowpea/onion/soybean as an intercrop in cotton to reduce early stage pest infestation
+        </string>
+    <string name="thrips_Cmc3">
+ Deep ploughing in summer and keep weed free field and surroundings.
+        </string>
+    <string name="thrips_Cmc4">
+  Grow certified acid de-linted seeds of thrips tolerant varieties.
+        </string>
+
+
+    //** Thrips Economic Threshold Level **//
+
+    <string name="thrips_etl1">
+         One egg or larvae per plant
+    </string>
+    <string name="thrips_etl2">
+         Morethan one egg/larvae per plant
+    </string>
+    <string name="thrips_etl3">
+         Morethan 5-10% Infested fruiting bodies
+    </string>
+    <string name="thrips_etl4">
+        Morethan 10% Infested fruiting bodies
+    </string>
+
+    //** Thrips Chemical /control screen **//
+
+    <string-array name="thrips_chemical_brand" formatted="false">
+        <item>BUPROFEZIN 25% SC </item>
+        <item>CARBARYL 50% WP </item>
+        <item>CHLORPYRIFOS 50% + CYPERMETHRIN 5%EC </item>
+        <item>DELTAMETHRIN 2.8% EC </item>
+        <item>DIAFENTHIURON 50%WP</item>
+        <item>FENVALERATE 20% EC </item>
+        <item>FLONICAMID 50% WG </item>
+        <item>IMIDACLOPRID 17.8% SL </item>
+        <item>LAMBDA-CYHALOTHRIN 2.5% EC </item>
+        <item>MONOCROTOPHOS 36% SL </item>
+        <item>PROFENOFOS 50% EC </item>
+        <item>THIACLOPRID 21.7% SC </item>
+        <item>THIAMETHOXAM 25% WG </item>
+    </string-array>
+
+
+    //** Thrips Insecticide and its brand names **//
+    //Insecticide//
+    <string name="THIOMETHOXAM_25_WG">50:200:500-750:21</string>
+    <string name="FLONICAMID_50_WG">75:150:500:25</string>
+    <string name="BUPROFEZIN_25_SC_th">100:-:-:-</string>
+    <string name="CARBARYL_50_WP">1000:2000:500-1000:22</string>
+    <string name="IMIDACHLOPRID_17_8_SL">20 – 25:100 – 125:500 – 700:40</string>
+    <string name="LAMBDA_CYHALOTHRIN_2_5_EC">15-25:600-1000:400-600:21</string>
+    <string name="MONOCROTOPHOS_36_SL_th">175:437:500-1000:-</string>
+    <string name="PROFENOPHOS50_EC">500:1000:500-1000:15</string>
+    <string name="CHLORPYRIFOS50_CYPERMETHRIN_5_EC">500+50:1000:500-1000:15</string>
+    <string name="DELTAMETHRIN_2_8_EC">10.0:400:400-600:-</string>
+    <string name="FENVALERATE_20_EC_th">25-40:125-200:250-400:7</string>
+    <string name="THIACHLOPRID_21_7_SC">24 – 30:100 – 125:500:52</string>
+    <string name="DIAFENTHIURON_50_WP">300:600:500-1000:22</string>
+
+    <string name="thrips_chemical1">
+         Chlorantraniliprole 18.5% SC
+    </string>
+    <string name="thrips_chemical2">
+        Flubendiamide 20% WG
+    </string>
+    <string name="thrips_chemical3">
+         Spinosad 45.0% SC
+    </string>
+    <string name="thrips_chemical4">
+         Emamectin Benzoate 5% SG
+    </string>
+    <string name="thrips_chemical5">
+         Indoxacarb 14.5% SC
+    </string>
+
+
+    <string name="text_with_paragraphs1">
+
+    Nitrogen is required in fairly large amount by cotton plants. Unlike some nutrients, N can be unavoidably lost from the soil under a variety of conditions. Nitrogen deficiency during the early season or mid-season generally appears as stunted plants with a yellowish-green leaf color and reduced size. Since N is mobile in the plant and is translocated to developing plant parts, nutrient deficiencies first appear on older leaves as yellowing, or in severe cases, reddening of the leaf blade. Plants deficient in N tend to be spindly, mature prematurely, and have reduced boll retention and yield.
+
+<br />
+
+An excess amount or improperly timed application of N can be harmful for cotton production because vegetative growth persists late in the season, making defoliation difficult. Too much N will delay maturity, damage fiber quality, increase the likelihood of re-growth after defoliation, and reduce yields. Large leaves, plant lodging, higher pest damage, and delayed fiber maturity and boll opening are all observed with excessively high N rates.
+
+<br />
+All sources of N should be accounted for in making N fertilizer recommendations (such as residual soil N, organic matter, and irrigation water). Petiole nitrate analysis is frequently useful in monitoring the plant nutrition status. Mid- and late-season N additions are commonly made with a variety of soluble N sources through soil application, foliar sprays, or water-run fertilization.
+<br />
+Leaf reddening may accelerate later in the season with the onset of cooler temperatures, and as anthocyanin production increases.
+
+</string>
+
+</resources>

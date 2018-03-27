@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_weight="0.45">
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/row2text21"
+                    android:textSize="11dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/row2text22"
+                    android:gravity="center_horizontal"
+                    android:textSize="12dp"></TextView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Insecticide" />
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:src="@drawable/id_jassid_thumb" />-->
+            <Button
+                android:id="@+id/dismiss"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ok" />
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

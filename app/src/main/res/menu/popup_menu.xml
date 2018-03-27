@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/chemical_control"
+        android:title="Chemical Control"
+        android:visible="true"/>
+    <item
+        android:id="@+id/bio_control"
+        android:title="Bio-control Control"
+        android:visible="true"/>
+    <item
+        android:id="@+id/natural_control"
+        android:title="Natural Control"
+        android:visible="true"/>
+    <item
+        android:id="@+id/cultural_control"
+        android:showAsAction="ifRoom|withText"
+        android:title="Cultural Control"
+        android:visible="true"/>
+
+</menu>

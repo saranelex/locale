@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cicr.com.locale">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".Adapter.GlobalClass"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/a_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:textAllCaps="true"
+        android:theme="@style/MyCustomTheme"
+        tools:replace="android:hardwareAccelerated">
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="locale|orientation|keyboardHidden"
+            android:noHistory="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Gallary.InitialScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.MainActivity_Image_Gallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.Etl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.Description_Image_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.Chemical_Control"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.BrandOption"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Gallary.MainActivity_Second_Gallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.DialogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.Management"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.ListDisplay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallary.PestKnownScreen"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Gallary.display" />
+        <activity android:name=".Gallary.Aboutapp" />
+        <activity android:name=".Gallary.Disclaimer" />
+        <activity android:name=".Gallary.Copyright"></activity>
+    </application>
+
+</manifest>

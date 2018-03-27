@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">CICR</string>
+    <string name="St_Pest">प्रबंधन विकल्प</string>
+    <string name="St_Pestun">कीट और प्रबंधन की पहचान करने के लिए</string>
+    <string name="title_activity_android_localize">AndroidLocalize</string>
+    <string name="greet">बधाई सचिन !!</string>
+    <string name="langselection">जिस भाषा में आप सचिन को नमस्कार करना चाहते हैं का चयन करें!!!!</string>
+    <string name="chooselang">Choose the language</string>
+      <string-array name="languages">
+        <item>Select language</item>
+        <item>தமிழ்</item>
+        <item>हिंदी</item>
+        <item>English</item>
+    </string-array>
+
+</resources>
+

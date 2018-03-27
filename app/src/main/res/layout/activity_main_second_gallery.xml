@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/blue"/>
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:textAlignment="gravity"
+        android:textSize="16sp"
+        android:textColor="@color/blue"
+        android:text="@string/image_related2" />
+
+
+    <GridView
+        android:id="@+id/small_gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_margin="12dp"
+        android:clickable="true"
+        android:columnWidth="140dp"
+        android:drawSelectorOnTop="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="spacingWidthUniform"
+        android:paddingBottom="15dp"
+        android:verticalSpacing="8dp" />
+
+
+    <!--<GridView-->
+        <!--android:id="@+id/small_gridView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/bottom_container"-->
+        <!--android:layout_below="@+id/textView7"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:clickable="true"-->
+        <!--android:columnWidth="150dp"-->
+        <!--android:drawSelectorOnTop="true"-->
+        <!--android:focusable="true"-->
+        <!--android:gravity="center"-->
+        <!--android:horizontalSpacing="5dp"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:verticalSpacing="5dp" />-->
+
+
+<LinearLayout
+
+android:id="@+id/bottom_container"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:orientation="horizontal">
+
+    <View
+        android:visibility="visible"
+        android:layout_height="0dip"
+        android:layout_width="1dip"
+        android:background="#FFFFFF"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/audio_btn_id"
+        android:background="@drawable/green_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:text="AUDIO" />
+
+<!-- ADDED SPACER VIEW >-->
+    <View
+        android:visibility="visible"
+        android:layout_height="0dip"
+        android:layout_width="5dip"
+        android:background="#FFFFFF"
+        android:layout_centerHorizontal="true"/>
+<!--/ADDED SPACER VIEW -->
+<Button
+    android:id="@+id/second_gallery_back"
+    android:background="@drawable/green_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:text="Back"
+    android:textColor="@color/blue"
+    android:textStyle="bold"
+    android:textSize="13dp"
+    />
+
+</LinearLayout>
+    </RelativeLayout>

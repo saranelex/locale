@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="11dp"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textSize="18dp"-->
+            <!--android:text="Cotton Pest Management"-->
+            <!--android:textColor="@color/blue"-->
+            <!--android:background="@drawable/green_button"-->
+            <!--android:layout_alignStart="@+id/button1" />-->
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="186dp"
+        android:layout_height="50dp"
+        android:entries="@array/languages"
+        android:layout_marginEnd="27dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/button1" />
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/button1"
+        style="@style/DefaultButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_button"
+        android:text="@string/St_Pestun"
+        android:layout_alignEnd="@+id/txtpestunknown"
+        android:layout_alignStart="@+id/txtpestunknown"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/space" />
+
+    <TextView
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@+id/button1"/>
+
+    <TextView
+        android:id="@+id/txtpestunknown"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space1"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="15dp"
+        android:singleLine="false"
+        android:text="Help: Select this option to identify the pest based on symptoms of damage and for different control measures.It also provides description about the pest" />
+
+
+
+    <TextView
+        android:id="@+id/space2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/txtpestunknown"/>
+    <Button
+        android:id="@+id/button"
+        style="@style/DefaultButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_button"
+        android:text="@string/St_Pest"
+        android:layout_below="@+id/space2"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/txtpestknown"
+        android:layout_alignStart="@+id/txtpestknown" />
+         />
+    <TextView
+        android:id="@+id/space3"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@+id/button"/>
+
+
+    <TextView
+        android:id="@+id/txtpestknown"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space3"
+        android:layout_centerInParent="true"
+        android:paddingLeft="15dp"
+        android:text="Help: Select this option,if you know the pest.It list pest and suggest different control measures." />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="redefining cotton cultivation"
+            android:background="@color/black"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/brown"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

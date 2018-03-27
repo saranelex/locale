@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY"
+    android:src="@drawable/open"/>
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--android:id="@+id/splashlogo"-->
+        <!--android:layout_width="280dp"-->
+        <!--android:layout_height="280dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:src="@drawable/open" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textColor="@color/logo_blue"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text=""-->
+        <!--android:layout_marginTop="38dp"-->
+        <!--android:layout_below="@+id/splashlogo"-->
+        <!--android:layout_alignParentEnd="true" />-->
+</RelativeLayout>
